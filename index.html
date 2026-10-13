@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>仙女超狂學習頁讓你爆賣</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@400;500&display=swap">
+<style>
+:root{--bg:#EEF7FB;--ink:#24343D;--mut:#667B86;--jade:#3A8DB3;--tint:#DDF0F8;--card:#FCFEFF;--line:#CBE4EF;--on:#fff;--price:#2F7FA8;--red:#B8372B;--redt:#F8E1DD;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#132028;--ink:#EAF4F8;--mut:#9EB4BF;--jade:#8FD0EC;--tint:#1F3743;--card:#192A33;--line:#2C4553;--on:#0F2530;--price:#9FD8F0;--red:#F0867A;--redt:#3E2321}}
+:root[data-theme="dark"]{--bg:#132028;--ink:#EAF4F8;--mut:#9EB4BF;--jade:#8FD0EC;--tint:#1F3743;--card:#192A33;--line:#2C4553;--on:#0F2530;--price:#9FD8F0;--red:#F0867A;--redt:#3E2321}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.75}
+.wrap{max-width:560px;margin:0 auto;padding:24px 20px 60px}
+h1,h2,h3{font-family:"Noto Serif TC",serif;line-height:1.4}
+h1{font-size:28px;margin:8px 0 10px}
+h2{font-size:21px;margin:34px 0 12px}
+.mut{color:var(--mut);font-size:14px}
+.warn{background:var(--redt);border:1.5px solid var(--red);border-radius:12px;padding:10px 14px;font-size:14px;margin:14px 0}
+.card{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;margin:10px 0}
+.say{background:var(--tint);border-radius:12px;padding:10px 14px;margin:8px 0 0;font-size:15px}
+.tri{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center;margin:12px 0}
+.tri>div{position:relative;font-size:12px;color:var(--mut);line-height:1.5}
+.tri>div+div:before{content:"+";position:absolute;left:-9px;top:24px;font-size:18px}
+.ring{width:72px;height:72px;border-radius:50%;border:6px solid var(--jade);display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 auto 6px;background:var(--card);line-height:1.2}
+.ring b{font-size:14px;font-family:"Noto Serif TC",serif;color:var(--ink)}
+.ring span{font-size:11px;color:var(--jade)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.stat{background:var(--tint);border-radius:14px;padding:10px 8px;text-align:center}
+.stat i{display:block;font-style:normal;font-family:"Noto Serif TC",serif;font-size:28px;color:var(--jade);font-weight:700;line-height:1.2}
+.stat span{font-size:12.5px;color:var(--mut)}
+details{background:var(--card);border:1.5px solid var(--line);border-radius:14px;margin:10px 0}
+summary{cursor:pointer;padding:12px 16px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:10px}
+summary::-webkit-details-marker{display:none}
+summary b{font-family:"Noto Serif TC",serif;font-size:18px;color:var(--jade)}
+summary small{color:var(--mut);font-size:13px}
+summary:after{content:"＋";color:var(--jade);flex:none}
+details[open] summary:after{content:"－"}
+summary:focus-visible{outline:3px solid var(--jade);outline-offset:2px;border-radius:12px}
+.in{padding:0 16px 14px}
+.in p{margin:0 0 8px;font-size:15px}
+.cols{display:grid;grid-template-columns:1fr;gap:10px}
+.ok,.no{border-radius:14px;padding:12px 16px}
+.ok{background:#E4EEE6}.no{background:var(--redt)}
+.ok h3,.no h3{font-size:16px;margin:0 0 6px}
+.ok h3{color:#3F6B4F}.no h3{color:var(--red)}
+ul{margin:0;padding-left:20px}li{margin-bottom:4px;font-size:15px}
+.cv{margin:6px 0 0}
+.cv .n{background:var(--redt);border-radius:10px;padding:8px 12px;font-size:14px}
+.cv .y{background:var(--tint);border-radius:10px;padding:8px 12px;margin-top:6px;font-size:15px}
+.cv small{display:block;font-weight:500;margin-bottom:2px;font-size:12px}
+.cv .n small{color:var(--red)}.cv .y small{color:var(--jade)}
+.scr p{margin:0 0 6px;font-size:15px}.scr b{color:var(--jade)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ok{background:#263329}:root:not([data-theme="light"]) .ok h3{color:#8FC9A0}}
+:root[data-theme="dark"] .ok{background:#263329}:root[data-theme="dark"] .ok h3{color:#8FC9A0}
+.edu{background:var(--redt);border:1.5px dashed var(--red);border-radius:12px;padding:10px 14px;margin:10px 0 0;font-size:14.5px}.edu b.t{display:block;color:var(--red);font-size:13px;margin-bottom:4px}.edu ul{margin:0}.edu li{font-size:14.5px}.edu .s{font-size:12.5px;color:var(--mut);margin-top:6px}
+[hidden]{display:none!important}
+label.q{display:block;font-weight:500;margin:14px 0 4px;font-size:15px}
+label.q textarea,#gt{display:block;width:100%;margin-top:6px;padding:10px 12px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:15px/1.6 "Noto Sans TC",sans-serif;min-height:64px;resize:vertical}
+.gbtn{display:block;width:100%;margin-top:14px;padding:13px;border:0;border-radius:999px;background:var(--jade);color:var(--on);font:500 16px "Noto Sans TC",sans-serif;cursor:pointer}
+
+/* 可愛水藍點綴 */
+body{background-image:radial-gradient(circle at 12% 8%,color-mix(in srgb,var(--jade) 12%,transparent) 0 46px,transparent 47px),radial-gradient(circle at 92% 22%,color-mix(in srgb,var(--jade) 9%,transparent) 0 28px,transparent 29px),radial-gradient(circle at 85% 4%,color-mix(in srgb,var(--jade) 10%,transparent) 0 14px,transparent 15px);background-repeat:no-repeat;background-size:100% 520px}
+.wrap>p.mut:first-child{display:inline-block;background:var(--tint);color:var(--jade);border-radius:999px;padding:3px 14px;font-size:13px;font-weight:500}
+h1{color:var(--jade)}
+h2{display:flex;align-items:center;gap:8px}
+h2:before{content:"";flex:none;width:12px;height:12px;border-radius:50%;background:var(--jade);box-shadow:8px -7px 0 -3px color-mix(in srgb,var(--jade) 55%,transparent)}
+.card,details{border-radius:20px}
+.say{border-radius:16px}
+.stat{border-radius:18px}
+.ring{border-style:dotted}
+.gbtn{box-shadow:0 4px 0 color-mix(in srgb,var(--jade) 35%,transparent)}
+.gbtn:active{transform:translateY(2px);box-shadow:0 2px 0 color-mix(in srgb,var(--jade) 35%,transparent)}
+
+/* 課程重點區 */
+.lt{background:var(--card);border:1.5px solid var(--line);border-left:8px solid var(--c);border-radius:20px;padding:12px 16px;margin:10px 0}
+.lt h3{margin:0 0 4px;font-size:18px;color:var(--c)}
+.lt .tag{display:inline-block;margin-top:8px;font-size:12.5px;color:var(--c);background:color-mix(in srgb,var(--c) 12%,transparent);border-radius:999px;padding:2px 10px}
+.g{--c:#3F8F5A}.yl{--c:#B57A10}.r{--c:var(--red)}.b{--c:var(--jade)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .g{--c:#8FC9A0}:root:not([data-theme="light"]) .yl{--c:#E8BE6A}}
+:root[data-theme="dark"] .g{--c:#8FC9A0}:root[data-theme="dark"] .yl{--c:#E8BE6A}
+.lt ol{margin:6px 0 0;padding-left:22px}.lt p{margin:4px 0;font-size:15px}
+.pill{display:inline-block;font-size:12px;color:var(--mut);margin-right:6px}
+
+.jr{background:var(--card);border:1.5px solid var(--line);border-radius:20px;padding:12px 16px;margin:10px 0}
+.jr h3{margin:0 0 6px;font-size:17px;color:var(--jade)}
+.jr dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14.5px}
+.jr dt{color:var(--mut);white-space:nowrap}.jr dd{margin:0}
+.a4{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.a4>div{background:var(--tint);border-radius:16px;padding:10px 12px;font-size:13.5px;line-height:1.55}
+.a4 b{display:block;color:var(--jade);font-size:15px}
+.four{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.four>div{background:var(--tint);border-radius:16px;padding:12px;font-family:"Noto Serif TC",serif;font-size:15.5px;line-height:1.5}
+.four i{font-style:normal;color:var(--jade);display:block;font-size:13px}
+.flow{text-align:center;background:var(--jade);color:var(--on);border-radius:999px;padding:8px 14px;margin:12px 0 4px;font-weight:500}
+.tb{width:100%;border-collapse:collapse;font-size:13.5px;margin:8px 0}.tb th,.tb td{border-bottom:1px solid var(--line);padding:7px 6px;text-align:left;vertical-align:top}.tb th{color:var(--jade);font-weight:500;white-space:nowrap}.tb td:first-child{white-space:nowrap;color:var(--jade);font-weight:500}
+
+/* 好複製 */
+.cpb{display:flex;align-items:center;gap:4px;margin:8px 0 0 auto;padding:5px 14px;border:1.5px solid var(--jade);border-radius:999px;background:var(--card);color:var(--jade);font:500 13.5px "Noto Sans TC",sans-serif;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.cpb.done{background:var(--jade);color:var(--on)}
+.cpw{display:flex;flex-direction:column}
+.li-c{display:flex;align-items:flex-start;gap:8px}.li-c>span{flex:1}.li-c .cpb{margin:0;flex:none;padding:3px 10px;font-size:12.5px}
+.say,.cv .y,.scr{-webkit-user-select:text;user-select:text}
+.toc{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;margin:14px -20px 0;padding:8px 20px;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line)}
+.toc::-webkit-scrollbar{display:none}
+.toc a{flex:none;font-size:13px;color:var(--jade);background:var(--tint);border-radius:999px;padding:4px 12px;text-decoration:none;white-space:nowrap}
+h2{scroll-margin-top:56px}
+.tip{background:var(--tint);border-radius:16px;padding:8px 14px;font-size:13.5px;color:var(--mut);margin:10px 0}
+#toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);opacity:0;background:var(--ink);color:var(--bg);padding:8px 18px;border-radius:999px;font-size:14px;transition:.2s;pointer-events:none;z-index:9}
+#toast.on{opacity:1;transform:translateX(-50%)}
+
+/* 可複製區塊：白底＋水藍實線框＋標籤 */
+:root{--cbg:#FFFFFF}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--cbg:#123241}}
+:root[data-theme="dark"]{--cbg:#123241}
+.copyable{position:relative;background:var(--cbg)!important;border:2px solid var(--jade)!important;border-radius:16px!important;padding-top:30px!important;box-shadow:0 3px 0 color-mix(in srgb,var(--jade) 22%,transparent)}
+.copyable:before{content:"📋 可直接複製";position:absolute;top:7px;left:12px;font-size:11.5px;font-weight:500;color:var(--on);background:var(--jade);border-radius:999px;padding:1px 9px;line-height:1.6}
+.in.copyable{margin:0 10px 12px;padding:30px 14px 12px!important}
+.lt.copyable{border-left-width:8px!important}
+.cpb{background:var(--jade)!important;color:var(--on)!important;border-color:var(--jade)!important}
+.cpb.done{background:#3F8F5A!important;border-color:#3F8F5A!important}
+.li-c{background:var(--cbg);border:1.5px solid var(--jade);border-radius:12px;padding:6px 8px 6px 10px;margin-bottom:6px;list-style:none}
+.card ul:has(.li-c){padding-left:0}
+.sm-c{flex:none;margin-left:auto;font-size:11.5px;font-weight:500;color:var(--jade);background:var(--tint);border-radius:999px;padding:1px 8px}
+
+/* 今天發什麼 */
+.pick{background:var(--cbg);border:2px solid var(--jade);border-radius:22px;padding:14px 16px;margin:14px 0}
+.pick h2{margin:0 0 4px;font-size:20px}.pick h2:before{display:none}
+.today{display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:var(--tint);border-radius:16px;padding:10px 12px;margin:10px 0}
+.today b{font-family:"Noto Serif TC",serif;font-size:16px;color:var(--ink)}
+.today .d{font-size:12px;color:var(--on);background:var(--jade);border-radius:999px;padding:1px 9px}
+.today .go{margin-left:auto}
+.tmr{font-size:13px;color:var(--mut);margin:-4px 0 8px 4px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.chip{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 13px;font:500 14px "Noto Sans TC",sans-serif;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--jade);border-color:var(--jade);color:var(--on)}
+.chip:focus-visible,.cpb:focus-visible{outline:3px solid var(--jade);outline-offset:2px}
+.res{margin-top:12px}
+.res-h{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--mut);margin-bottom:4px}
+.res-h button{margin-left:auto;border:0;background:none;color:var(--jade);font:500 13.5px "Noto Sans TC",sans-serif;cursor:pointer;padding:4px}
+.ri{background:var(--card);border:1.5px solid var(--jade);border-radius:16px;padding:10px 12px;margin:8px 0;display:flex;flex-direction:column}
+.ri .src{font-size:12px;color:var(--jade);font-weight:500;margin-bottom:2px}
+.ri .tx{font-size:15px;white-space:pre-line}
+
+/* 結果卡片收短 */
+.ri .tx{white-space:pre-line;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.ri.full .tx{display:block;-webkit-line-clamp:unset}
+.ri .row{display:flex;align-items:center;gap:8px;margin-top:8px;flex-direction:row-reverse;justify-content:space-between}
+.ri .row .cpb{margin:0}
+.more{border:0;background:none;color:var(--mut);font:13px "Noto Sans TC",sans-serif;cursor:pointer;padding:4px 2px}
+/* 左下角目錄 */
+.fab{position:fixed;left:16px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:8;display:flex;flex-direction:column;gap:8px}
+.fab button{border:0;border-radius:999px;background:var(--jade);color:var(--on);font:500 14px "Noto Sans TC",sans-serif;padding:10px 16px;box-shadow:0 4px 14px color-mix(in srgb,var(--ink) 25%,transparent);cursor:pointer;text-align:left}
+.fab .top{background:var(--card);color:var(--jade);border:1.5px solid var(--jade);padding:7px 14px;font-size:13px}
+.sheet{position:fixed;inset:0;z-index:9;background:color-mix(in srgb,var(--ink) 35%,transparent)}
+.sheet nav{position:absolute;left:0;top:0;bottom:0;width:min(78vw,300px);background:var(--bg);padding:calc(16px + env(safe-area-inset-top,0px)) 14px calc(16px + env(safe-area-inset-bottom,0px));overflow-y:auto;display:flex;flex-direction:column;gap:4px;box-shadow:4px 0 20px color-mix(in srgb,var(--ink) 20%,transparent)}
+.sheet nav b{font-family:"Noto Serif TC",serif;font-size:17px;color:var(--jade);margin:0 6px 6px}
+.sheet nav a{color:var(--ink);text-decoration:none;font-size:15px;padding:8px 10px;border-radius:12px}
+.sheet nav a.hl{background:var(--jade);color:var(--on)}
+.sheet nav a:active,.sheet nav a:hover{background:var(--tint)}
+.wrap{padding-bottom:110px}
+</style>
+</head>
+<body>
+<main class="wrap">
+<p class="mut">婕樂纖仙女團隊｜夥伴內部學習</p>
+<h1>仙女超狂學習頁<br>讓你爆賣</h1>
+<p class="mut" style="margin:-4px 0 0;font-size:15px">高機能益生菌篇</p>
+<div class="warn"><b>僅供夥伴內部學習，請勿轉發給客人。</b>這頁只整理菌株、專利和安全說法，不含功效。給客人看的，請用「益生菌測驗」那個連結。</div>
+<div class="tip">📋 <b style="color:var(--jade)">藍色實線框、左上角寫「可直接複製」的</b>，就是可以直接複製給客人或貼到 IG 的內容，下面都有「複製」按鈕，按一下就能貼到 IG、LINE 或 AI。下方的小標籤可以直接跳到想看的段落。</div>
+<section class="pick" id="pick"><h2>今天想發什麼？</h2><p class="mut" style="margin:0">點一個方向，相關的話術、腳本、故事會全部排在下面，按「複製」就能用。</p><div class="today" id="today"></div><p class="tmr" id="tmr"></p><div class="chips" id="chips"></div><div class="res" id="res" hidden></div></section>
+
+<h2>30 秒介紹，這樣說</h2>
+<div class="say">「這是婕樂纖的高機能益生菌，特別的是它不只有益生菌，而是補好菌、顧好菌、養好菌的三合一，也就是益生菌＋後生元＋益生質。菌株是挑選過的專利菌株，也拿過 SNQ 國家品質標章和 2026 世界品質標章鑽石金獎。我自己是固定在［時間］吃，已經變成習慣。」</div>
+<p class="mut">最後一句換成你自己真實的吃法，這是最有說服力的部分。</p>
+
+<h2>三合一，是哪三個？</h2>
+<div class="tri">
+<div><div class="ring"><b>益生菌</b><span>機能＋</span></div>活性微生物</div>
+<div><div class="ring"><b>益生質</b><span>有感＋</span></div>益生菌的食物</div>
+<div><div class="ring"><b>後生元</b><span>加成＋</span></div>熱處理菌體或菌體來源成分</div>
+</div>
+<p class="mut" style="text-align:center">三者搭配，合稱「益生聯®」三合一</p><div class="card"><b>白話記法：補好菌、顧好菌、養好菌</b><ul style="margin-top:6px"><li><b>補好菌</b>：BGN4®、BORI® 專利益生菌，每包 60 億以上</li><li><b>顧好菌</b>：L-137® 專利後生元</li><li><b>養好菌</b>：日本專利乳果寡糖，好菌的食物</li></ul></div><div class="card"><b>規格</b>：2g／包，30 包／盒，天然青蘋果口味，奶素<br><b>安全</b>：加驗嬰幼兒食品法規項目；SGS 檢驗塑化劑、農藥、西藥、重金屬等<br><b>認證</b>：SNQ 國家品質標章、世界品質標章、國家品牌玉山獎</div>
+
+<h2>數字速記</h2>
+<div class="stats">
+<div class="stat"><i>307</i><span>項國內外大獎</span></div>
+<div class="stat"><i>2018</i><span>年品牌創立</span></div>
+<div class="stat"><i>55</i><span>篇益生菌文獻發表</span></div>
+<div class="stat"><i>13</i><span>項益生菌國際專利</span></div>
+<div class="stat"><i>51</i><span>篇 L-137 文獻發表</span></div>
+<div class="stat"><i>30</i><span>項 L-137 國際專利</span></div>
+</div>
+
+<h2>獎項速記</h2>
+<div class="card"><b>高機能益生菌　累積 26 項國內外獎項</b><ul style="margin-top:6px"><li>世界品質標章：連續 6 年金獎（2021～2026），2023、2026 為鑽石金獎；若從 2020 銀獎算起是連續 7 年獲獎</li><li>SNQ 國家品質標章：連續 6 年（2020～2025）</li><li>國家品牌玉山獎：累積 4 年，2026 最佳產品＋全國首獎（全國首獎是從所有最佳產品得主中再評選出來的；品牌三度受邀進總統府接受國家元首表揚）</li><li>A.A. 無添加驗證：連續 2 年一星（2025、2026）</li><li>2026 大腦保健創新產品獎金獎、2021 台灣百大伴手禮、2020 華商卓越品牌金像獎、2020 台灣品質保證金像獎</li></ul><div class="say">「這款連續六年拿世界品質標章金獎，還拿過最高等級的鑽石金獎。我不講功效，我看的是有沒有第三方的肯定。」</div></div>
+<p class="mut">注意：26 項是「高機能益生菌」的數字；上面的 307 是公司整體的獎項數，對客人講的時候不要混在一起。</p>
+<h2>三大科學實證</h2>
+<p class="mut">重點不是只看菌數，而是看菌株、研究和安全性資料。</p>
+<div class="lt b"><p class="pill">01</p><h3>臨床研究｜BGN4® ＋ BORI®</h3><p>兩株各自都有研究資料，也有兩株複合配方的人體臨床研究（三星首爾醫療中心相關研究）。</p></div>
+<div class="lt b"><p class="pill">02</p><h3>美國 FDA GRAS 安全性資料</h3><p>BGN4®：GRN 814<br>BORI®：GRN 813</p><p class="mut">FDA 公開資料列有這兩株特定菌株及用途的 GRAS 通知回覆，是國際級的安全性評估依據。</p></div>
+<div class="lt b"><p class="pill">03</p><h3>國際科學文獻 106 篇</h3><p>43 項國際專利，26 項國內外品質大獎，涵蓋基礎研究和臨床應用。</p><p class="mut">106 篇＝益生菌 55 篇＋L-137 51 篇；43 項＝益生菌 13 項＋L-137 30 項。</p></div>
+<div class="say">「我挑益生菌不只看菌數，我會看菌株有沒有標示清楚、有沒有研究資料和安全性資料。這款的 BGN4、BORI 有美國 FDA 的 GRAS 安全性資料，整組有 106 篇研究發表。」</div>
+<div class="edu"><b class="t">講 FDA 和臨床研究時要注意</b><ul><li>GRAS 是「特定菌株和用途的安全性資料」，不是 FDA 認證產品有效，不能說「FDA 認證」。</li><li>臨床研究只說「有人體臨床研究」，不要說研究了什麼病、結果改善多少。研究結果依研究設計、對象和配方而不同，不等於這個產品的效果。</li></ul></div>
+<h2>菌株卡片（點開看）</h2>
+<p class="mut">每張卡有兩層：<b>粉紅虛線框</b>是公司教育訓練資料裡的功效，只給你自己學習、了解產品；<b>「這樣說」</b>是可以對客人說的版本。對客人只說「這樣說」那一層。</p>
+<details><summary><span><b>BORI®</b><br><small>比菲德氏龍根菌</small></span></summary><div class="in"><p>學名：Bifidobacterium longum</p><p>屬於比菲德氏菌屬，是公司精選的專利菌株之一。</p><div class="say">「這是我們挑選的專利菌株之一，整組益生菌有 55 篇文獻發表、13 項國際專利。」</div><div class="edu"><b class="t">🔒 內部學習，不要對客人說（公司內部教育訓練資料）</b><ul><li>抗病毒專利菌株</li><li>教育訓練資料列在：腸躁症、抗病毒（研究實證的菌株之一）</li></ul></div></div></details>
+<details><summary><span><b>BGN4®</b><br><small>比菲德氏雙叉菌</small></span></summary><div class="in"><p>學名：Bifidobacterium bifidum</p><p>同樣屬於比菲德氏菌屬，也是精選專利菌株之一。</p><div class="say">「BGN4 和 BORI 都是比菲德氏菌，是我們配方裡的專利菌株。」</div><div class="edu"><b class="t">🔒 內部學習，不要對客人說（公司內部教育訓練資料）</b><ul><li>抗過敏專利菌株</li><li>教育訓練資料列在：腸躁症、改善過敏（研究實證的菌株之一）</li></ul></div></div></details>
+<details><summary><span><b>LGG</b><br><small>鼠李糖乳桿菌</small></span></summary><div class="in"><p>學名：Lactobacillus rhamnosus GG（LRGG 與 LGG 是同菌種）</p><p>乳酸桿菌屬，是廣為人知的經典菌株。</p><div class="say">「LGG 是很多人聽過的經典菌株，我們也放進配方。」</div><div class="edu"><b class="t">🔒 內部學習，不要對客人說（公司內部教育訓練資料）</b><ul><li>改善異位性皮膚炎（專利菌株）</li><li>腹瀉、急性腸胃炎</li><li>改善、預防使用抗生素引起的腹瀉</li><li>腸躁症</li><li>改善過敏</li><li>LRGG 與 LGG 是同菌種、同功效</li></ul></div></div></details>
+<details><summary><span><b>AD031</b><br><small>嗜酸乳桿菌</small></span></summary><div class="in"><p>學名：Lactobacillus acidophilus AD031</p><p class="mut">公司素材（菌株介紹、臨床研究論文標題）都寫嗜酸乳桿菌，舊版這裡寫成瑞士乳酸桿菌，已更正。對外說之前，請再對一次產品包裝。</p><p>乳酸桿菌屬，是配方中的精選菌株之一。</p><div class="say">「AD031 是嗜酸乳桿菌，一樣是我們挑選的菌株。」</div><div class="edu"><b class="t">🔒 內部學習，不要對客人說（公司內部教育訓練資料）</b><ul><li>腸道守護神</li><li>教育訓練資料列在：腸躁症（研究實證的菌株之一）</li></ul></div></div></details>
+<details><summary><span><b>Lactoligo®</b><br><small>乳合菓乳果寡糖（益生質）</small></span></summary><div class="in"><p>日本專利益生質，也就是益生菌的食物。取得日本最多特定保健用食品認證的寡糖。</p><div class="say">「它是益生菌的食物，是日本專利的寡糖，所以配方不只放菌，也放菌的食物。」</div><p class="mut" style="margin-top:8px">日本認證只說「日本認證的寡糖」，不要延伸成「所以能改善什麼」。</p><div class="edu"><b class="t">🔒 內部學習，不要對客人說（公司內部教育訓練資料）</b><ul><li>有效幫助腸道中比菲德氏菌繁殖</li><li>有效改善排便狀況</li><li>促進鈣、鎂、磷吸收</li><li>增加骨質強度</li><li>取得日本最多特定保健用食品認證的寡糖（日本厚生勞動省許可）</li></ul></div></div></details>
+<details><summary><span><b>L-137®</b><br><small>冠軍專利後生元</small></span></summary><div class="in"><p>學名：Lactobacillus plantarum（植物乳酸菌），專利後生元，51 篇文獻發表、30 項國際專利（歐洲、美國、日本）。</p><div class="say">「後生元是熱處理過的菌體成分，L-137 是我們的冠軍專利後生元，有 51 篇文獻、30 項國際專利。」</div><div class="edu"><b class="t">🔒 內部學習，不要對客人說（公司內部教育訓練資料）</b><ul><li>免疫調節功能</li><li>預防流行性感冒、抗 A 型流感</li><li>輔助調整過敏體質（可雙向、主動調節免疫系統，對外強化病原菌的防護，對內緩解過敏）</li><li>改善牙周病</li><li>人體實驗證實可促進體內玻尿酸生成，提高皮膚含水量，改善皮膚皺褶與肌膚老化</li></ul></div></div></details>
+
+<h2>吃法速查（公司建議）</h2>
+<div class="card"><ul><li><b>4 個月～1 歲以下</b>：每日 1/3～1/2 包</li><li><b>1～12 歲以下</b>：每日 1 包</li><li><b>12 歲以上成人</b>：每天 2 包</li><li><b>想加強補充</b>：每天 3～4 包</li><li><b>懷孕、哺乳</b>：建議每天 3～4 包</li></ul>
+<p class="mut" style="margin:10px 0 0">空腹吃：一早起床還沒吃早餐前，或睡前刷牙後。<br>嬰幼兒：加到平日喝的開水，或泡奶放到常溫後再加入益生菌。</p></div><div class="edu"><b class="t">🔒 內部學習，不要對客人說（公司教育訓練資料）</b><ul><li>如果客人有過敏問題，或想加強補充，建議每天 3～4 包。對客人只說「想加強補充可以 3～4 包」，不要把份量跟過敏連在一起說。</li></ul></div>
+<h2>客人常問，安全回答範本</h2>
+<details><summary><b style="font-size:16px">益生菌是什麼？</b></summary><div class="in"><p class="mut" style="margin:0 0 4px">分兩則傳，比較像聊天。</p><div class="say">益生菌就是大家說的「好菌」🙂<br>優格、納豆裡也吃得到，<br>只是外食多、菜吃少，不一定每天吃得夠。<br><br>我吃的這款是三合一：<br>補好菌＋養好菌＋顧好菌，<br>一包 2g 青蘋果口味，很好入口～</div><div class="say">是你自己要吃的嗎？還是幫家人看的呀～<br>之前有吃過哪一牌嗎？吃起來習慣嗎？</div><p class="mut" style="margin:8px 0 0">不要問「效果如何」，客人容易接著講症狀。問習不習慣、口味，一樣聊得出需求。</p></div></details>
+<details><summary><b style="font-size:16px">吃了有效嗎？</b></summary><div class="in"><div class="say">「保健食品每個人感受不同，我沒辦法保證效果。我能分享的是我自己的吃法，還有這款的菌株、專利和獎項。如果你有特定狀況，建議先問醫師或營養師。」</div></div></details>
+<details><summary><b style="font-size:16px">小孩幾歲可以吃？</b></summary><div class="in"><div class="say">「這款有加驗嬰幼兒食品法規項目，4 個月以上才建議使用。4 個月到 1 歲以下每天 1/3～1/2 包，1 到 12 歲以下每天 1 包，可以加進平常喝的開水，或泡奶放到常溫後再加。孩子如果有特殊健康狀況，先問醫師或營養師。」</div></div></details>
+<details><summary><b style="font-size:16px">孕婦、哺乳可以吃嗎？</b></summary><div class="in"><div class="say">「可以的。這款有加驗嬰幼兒食品法規項目，也通過 SGS 檢驗（塑化劑、農藥、西藥、重金屬等），還獲得 SNQ 國家品質標章、世界品質標章金獎和國家品牌玉山獎。懷孕、哺乳的媽媽，建議每天 3～4 包。不過每個人狀況不同，如果有特殊疾病，建議先拿產品包裝詢問專業醫師，再開始吃，也可以詢問婕樂纖的營養師。」</div></div></details>
+<details><summary><b style="font-size:16px">跟別牌差在哪？</b></summary><div class="in"><div class="say">「我不評論別牌。我們的特色是三合一（益生菌＋益生質＋後生元）、專利菌株、全桿菌配方，還有 SNQ 和世界品質標章的肯定。」</div></div></details>
+<details><summary><b style="font-size:16px">要吃多久？一天吃多少？</b></summary><div class="in"><div class="say">「我們會看你的生活狀況給建議：狀態不錯的一天 1–2 包，中間的 2–3 包，比較忙、比較亂的 3–4 包；另外一般的吃法是：12 歲以上每天 2 包，1 到 12 歲以下每天 1 包，4 個月到 1 歲以下每天 1/3～1/2 包；想加強補充，建議每天 3～4 包。建議空腹吃，像早上起床還沒吃早餐前，或睡前刷牙後。實際請依健康顧問的建議，有問題也可以找婕樂纖營養師諮詢，我也會陪你做 21 天打卡，先把習慣養起來。」</div></div></details>
+<details><summary><b style="font-size:16px">怎麼挑益生菌？</b></summary><div class="in"><p>三個重點：</p><ul><li>耐胃酸、耐膽鹼的專利菌株</li><li>安全有保障（加驗嬰幼兒食品法規項目、SGS 檢驗）</li><li>好吃、吃得久（天然青蘋果口味，粉狀可直接吃或拌進奶裡）</li></ul><div class="say">「我會看三件事：菌株耐不耐胃酸、安全有沒有把關、孩子和大人吃不吃得下。」</div></div></details><details><summary><b style="font-size:16px">多吃蔬菜、喝優格，不就好了？</b></summary><div class="in"><div class="say">「蔬菜和優格都很好，照吃。只是吃得少、挑食或忙到忘記的時候，不一定每天都吃得夠，多一個每天固定、好入口的好菌補給會更穩定。」</div></div></details><details><summary><b style="font-size:16px">會不會太貴？</b></summary><div class="in"><div class="say">「活動單組約 2 個月份，平均一天約 $55。愛用者會員另有專屬價，我私訊你。」</div></div></details>
+
+<h2>客人的擔心，這樣轉換口播</h2>
+<p class="mut">客人常常從症狀或功效切入。原則：不接症狀、不講功效，改講「你的生活場景、成分專利、固定習慣」，需要時請客人諮詢專業人員。</p>
+<details><summary><b style="font-size:16px">腸胃不順、常常卡卡</b></summary><div class="in cv"><div class="n"><small>不要說</small>「改善便秘」「幫你順暢排便」</div><div class="y"><small>可以這樣口播</small>「我不會跟你說它能改善什麼。我自己三餐常常外食，所以把補好菌變成每天固定的習慣，一包 2g，青蘋果口味，很好入口。」</div></div></details>
+<details><summary><b style="font-size:16px">過敏、換季很不舒服</b></summary><div class="in cv"><div class="n"><small>不要說</small>「改善過敏體質」「抗過敏」</div><div class="y"><small>可以這樣口播</small>「換季的時候我會特別在意作息、飲食和環境，補好菌是我每天固定的一環。有過敏相關的困擾，還是要以醫師的建議為主，我只分享我的日常習慣。」</div></div></details>
+<details><summary><b style="font-size:16px">免疫力、容易感冒</b></summary><div class="in cv"><div class="n"><small>不要說</small>「提升免疫力」「預防感冒」「抗病毒」</div><div class="y"><small>可以這樣口播</small>「我不講功效，我講我的日常：早睡、多喝水、吃蔬果，再加上每天固定補好菌。這款是補好菌、顧好菌、養好菌的三合一。」</div></div></details>
+<details><summary><b style="font-size:16px">孩子挑食、擔心孩子</b></summary><div class="in cv"><div class="n"><small>不要說</small>「幫孩子調整體質」「改善孩子的狀況」</div><div class="y"><small>可以這樣口播</small>「孩子很難每餐都吃得均衡，我會多準備一個好入口的選擇：青蘋果口味，酸甜不膩，粉狀可以直接吃或拌進奶裡。這款加驗嬰幼兒食品法規項目，4 個月以上才建議使用，吃法依孩子年齡調整。」</div></div></details>
+<details><summary><b style="font-size:16px">皮膚、保養</b></summary><div class="in cv"><div class="n"><small>不要說</small>「促進玻尿酸」「改善皺紋、肌膚老化」</div><div class="y"><small>可以這樣口播</small>「我把它當成每天保養流程的一部分，跟蔬果、水分、睡眠放在一起顧。」</div></div></details>
+<details><summary><b style="font-size:16px">壓力大、睡不好</b></summary><div class="in cv"><div class="n"><small>不要說</small>「減壓」「助眠」「改善情緒」</div><div class="y"><small>可以這樣口播</small>「壓力大的時候，我更需要簡單、不費力的習慣。每天一包，不用想太多，先把這件事穩住。」</div></div></details>
+<details><summary><b style="font-size:16px">吃過別牌沒感覺</b></summary><div class="in cv"><div class="n"><small>不要說</small>「那是你沒吃對」「這款一定有感覺」</div><div class="y"><small>可以這樣口播</small>「每個人感受不同，我不敢保證。我會看三件事：耐不耐胃酸、安全有沒有把關、吃不吃得下去，這款三點都有做到，你可以先從一組開始試試看。」</div></div></details>
+<h2>客人主動說「我有過敏」，這樣回</h2>
+<p class="mut">客人自己提到過敏或皮膚狀況時用。原則：不接症狀、不說能改善，把重點放在菌株資料、吃法和看醫師。</p>
+<details><summary><b style="font-size:16px">我有過敏，為什麼要吃益生菌？</b></summary><div class="in"><div class="say">「我不會跟你說它能改善過敏，過敏還是要以醫師的建議為主。我自己吃，是想把補好菌變成每天固定的習慣。這款有 BGN4、BORI 專利菌株，也搭配 L-137 後生元，原料都有研究資料。」</div></div></details>
+<details><summary><b style="font-size:16px">你怎麼知道這款不是一般益生菌？</b></summary><div class="in"><div class="say">「我挑益生菌不會只看菌數，會看菌株有沒有清楚標示、原料有沒有研究資料，還有產品的品質檢驗。這款用專利的 BGN4、BORI，搭配 L-137 後生元，官方也有公開研究和品質資訊。」</div></div></details>
+<details><summary><b style="font-size:16px">所以可以降低皮膚發炎嗎？</b></summary><div class="in cv"><div class="n"><small>原課程答法，不要用</small>「有科學實證＋人體實測，可免疫調節及降低身體發炎反應。」</div><div class="y"><small>可以這樣回</small>「這個我不能這樣跟你說。研究是針對特定菌株做的，不等於產品的效果。皮膚的狀況，還是請先問皮膚科醫師。我能分享的是菌株、安全檢驗和我自己的吃法。」</div></div></details>
+<details><summary><b style="font-size:16px">我已經有吃別牌，為什麼要考慮這款？</b></summary><div class="in"><div class="say">「如果你現在吃的很適合自己，不一定要換。我們可以一起比較菌株、成分組合、每份菌數、品質檢驗和價格。這款的特色之一是益生菌、益生質、後生元三種一起搭配。」</div></div></details>
+<details><summary><b style="font-size:16px">我要吃多久，皮膚才會比較穩定？</b></summary><div class="in cv"><div class="n"><small>不要說</small>「大概吃幾週就會穩定」「我幫你評估多久會好」</div><div class="y"><small>可以這樣回</small>「每個人的身體、飲食、作息都不一樣，我沒辦法保證什麼時候會有感覺，也不會跟你說皮膚會怎樣。我能陪你的是把吃法和時間固定下來，皮膚的部分請跟醫師討論。」</div></div></details>
+<details><summary><b style="font-size:16px">我正在用過敏的藥，還可以吃嗎？</b></summary><div class="in"><div class="say">「藥一定照醫師的指示吃，千萬不要因為補充益生菌就自己減藥或停藥。要跟藥一起吃的話，時間怎麼錯開，請先問醫師或藥師，也可以拿產品包裝給他們看。」</div></div></details>
+<h2>專業感句庫（可直接口播）</h2>
+<div class="card"><ul><li>「這是三合一：補好菌、顧好菌、養好菌。」</li><li>「補好菌：BGN4、BORI 專利益生菌，每包 60 億以上。」</li><li>「顧好菌：L-137 專利後生元，51 篇文獻發表、30 項國際專利。」</li><li>「養好菌：日本專利乳果寡糖，是好菌的食物。」</li><li>「菌株採用耐胃酸、耐膽鹼的專利菌株。」</li><li>「全桿菌配方，選用韓國、日本科研菌株。」</li><li>「加驗嬰幼兒食品法規項目，SGS 檢驗塑化劑、農藥、西藥、重金屬。」</li><li>「拿過 SNQ 國家品質標章、世界品質標章金獎、國家品牌玉山獎，國內外累積 307 項大獎。」</li><li>「天然青蘋果口味，奶素，2g 一包，一盒 30 包。」</li></ul></div>
+<h2>30 秒口播腳本</h2>
+<p class="mut">照著念，把「我」的部分換成你自己真實的情況。</p>
+<details><summary><b style="font-size:16px">外食上班族</b></summary><div class="in scr"><p><b>開場</b>　「午餐又是便當？我也是。」</p><p><b>內容</b>　「三餐常常在外面解決的我，後來把一件事變成每天固定：補好菌。這款是補好菌、顧好菌、養好菌的三合一，一包 2g，青蘋果口味，隨手就能吃。」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，一分鐘免費做。</p></div></details>
+<details><summary><b style="font-size:16px">媽媽，幫孩子準備</b></summary><div class="in scr"><p><b>開場</b>　「孩子挑食，你是不是也很頭痛？」</p><p><b>內容</b>　「我沒辦法保證每餐都均衡，所以多準備一個好入口的選擇。青蘋果口味，酸甜不膩，粉狀可以直接吃或拌進奶裡，加驗嬰幼兒食品法規項目，4 個月以上才建議使用，吃法依孩子年齡調整。」</p><p><b>收尾</b>　想幫孩子做個一分鐘好菌檢測？私訊我「好菌檢測」。</p></div></details>
+<details><summary><b style="font-size:16px">熬夜、作息亂</b></summary><div class="in scr"><p><b>開場</b>　「又熬夜了？先別急著自責。」</p><p><b>內容</b>　「作息很難一下子改，所以我先做最簡單的：每天固定一個時間，補好菌。不用想太多，一包搞定。」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，一分鐘免費做。</p></div></details>
+<details><summary><b style="font-size:16px">換季、體質敏感</b></summary><div class="in scr"><p><b>開場</b>　「換季了，你都怎麼顧自己？」</p><p><b>內容</b>　「我會把作息、飲食、環境一起顧好，再加一個每天固定的習慣：補好菌。如果有特殊困擾，我還是會先問醫師。」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，一分鐘免費做。</p></div></details>
+<details><summary><b style="font-size:16px">幫爸媽準備</b></summary><div class="in scr"><p><b>開場</b>　「想幫爸媽準備點好東西？」</p><p><b>內容</b>　「長輩的習慣最難改，所以我挑簡單的：每天一包、好入口、安全有把關。如果長輩有特殊健康狀況，記得先問醫師或營養師。」</p><p><b>收尾</b>　想幫爸媽做個好菌檢測？私訊我「好菌檢測」。</p></div></details>
+<p class="mut">以上是依一般廣告規範改寫的建議，不是法律意見。對外使用前，請以公司核可的說法為準。</p>
+<h2>客人測完沒買，怎麼送懶人包</h2>
+<p class="mut">原則：不追問、不施壓。先給價值，客人感受到好，之後自然會回來問。懶人包有兩種：網頁版（測驗網址後面加 <b>?pack=1</b>）和 PDF 檔（可直接私訊傳）。客人按「私訊健康顧問領取懶人包＋申請體驗包」找你時，你可以回傳 PDF 或網頁版（已經有 ?ref= 就改加 &amp;pack=1）。</p>
+<details><summary><b style="font-size:16px">客人說「我再想想」</b></summary><div class="in cv"><div class="n"><small>不要這樣</small>「那你是不是不需要啊？」「現在買比較划算喔」</div><div class="y"><small>可以這樣口播</small>「沒問題，不急。我先送你一份「好菌 × 葉黃素天然食物懶人包」，從三餐開始顧，一分鐘看完，也可以直接複製買菜清單。」</div></div></details>
+<details><summary><b style="font-size:16px">客人說「太貴了」</b></summary><div class="in cv"><div class="n"><small>不要這樣</small>「這個價格已經很划算了」</div><div class="y"><small>可以這樣口播</small>「了解，先從飲食開始也很好。這份懶人包整理了優格、納豆、深綠色蔬菜怎麼搭，今天就能開始。想再了解，隨時問我。」</div></div></details>
+<details><summary><b style="font-size:16px">客人做完測驗，已讀不回</b></summary><div class="in cv"><div class="n"><small>不要這樣</small>連續傳訊息追問「有沒有興趣」</div><div class="y"><small>可以這樣口播</small>「剛剛你做完好菌檢測，我多準備了一份天然食物懶人包給你。不一定要買什麼，先拿去用就好。」（過 2～3 天再關心一次就好）</div></div></details>
+<details><summary><b style="font-size:16px">三天後的關心</b></summary><div class="in cv"><div class="n"><small>不要這樣</small>「上次的事你考慮得怎麼樣？」</div><div class="y"><small>可以這樣口播</small>「前幾天送你的懶人包，有試試看嗎？買菜清單我自己也在用。如果想要更省力的方式，我再跟你分享。」</div></div></details>
+<div class="card"><b>小提醒</b><ul><li>懶人包是一般營養資訊，可以放心給客人，但不要加上功效說法。</li><li>客人有特殊疾病、孕哺、給孩童吃，請提醒先問醫師或營養師。</li><li>送出去之後，再追問一次就好，不要天天傳。</li></ul></div>
+<h2>日常口播，生活感版本</h2>
+<p class="mut">不賣產品，先分享「我的一天」。把產品放進生活裡，自然帶到。一樣不講功效，請換成你真實的情況。</p>
+<details><summary><b style="font-size:16px">早晨例行</b></summary><div class="in scr"><p><b>開場</b>　「早安，今天的第一件事是……」</p><p><b>內容</b>　「我現在起床第一件事，是喝一杯水，接著吃一包益生菌，然後才吃早餐。空腹吃，是公司建議的吃法。固定做同一件事，比想起來才做更容易持續。」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，1 分鐘免費測。</p></div></details>
+<details><summary><b style="font-size:16px">出門前、包包裡</b></summary><div class="in scr"><p><b>開場</b>　「我包包裡永遠有這個。」</p><p><b>內容</b>　「一包 2g、青蘋果口味，不用水也能直接吃，放包包完全不佔空間。出差、旅行、加班，我都帶著，因為我想把它變成不用想的習慣。」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，1 分鐘免費測。</p></div></details>
+<details><summary><b style="font-size:16px">外食、聚餐後</b></summary><div class="in scr"><p><b>開場</b>　「今天又吃了一頓大餐。」</p><p><b>內容</b>　「我不會自責，也不會突然節食。我的方式是：隔天回到固定的習慣，早起一杯水、一包好菌、蔬菜多吃一點。穩穩的，比極端更久。」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，1 分鐘免費測。</p></div></details>
+<details><summary><b style="font-size:16px">睡前一分鐘</b></summary><div class="in scr"><p><b>開場</b>　「睡前 60 秒，我只做一件事。」</p><p><b>內容</b>　「刷完牙，吃一包。公司建議也可以睡前刷牙後吃。一天的最後，給自己一個小小的照顧儀式。」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，1 分鐘免費測。</p></div></details>
+<details><summary><b style="font-size:16px">帶孩子出門</b></summary><div class="in scr"><p><b>開場</b>　「帶小孩出門，最怕東西一堆。」</p><p><b>內容</b>　「我會多準備一個好入口的選擇，青蘋果口味、粉狀可以拌進水或奶裡（要放到常溫再加）。4 個月以上才建議使用，詳細份量我會依健康顧問的建議。」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，1 分鐘免費測。</p></div></details>
+<details><summary><b style="font-size:16px">分享自己的紀錄</b></summary><div class="in scr"><p><b>開場</b>　「我已經吃了一段時間了。」</p><p><b>內容</b>　「我不講有沒有改變什麼，我只分享我做到了：每天固定。這個習慣我很喜歡，也很簡單。你有想過每天顧自己的什麼嗎？」</p><p><b>收尾</b>　想知道你的好菌補夠了沒？私訊我「好菌檢測」，1 分鐘免費測。</p></div></details>
+<details><summary><b style="font-size:16px">回應客人「你為什麼賣這個」</b></summary><div class="in scr"><p><b>開場</b>　「這是我自己有在吃的。」</p><p><b>內容</b>　「我先吃，才推薦。我看的是三件事：菌株耐不耐胃酸、安全有沒有把關、吃不吃得下去。這款三點都有，所以我才分享給大家。」</p><p><b>收尾</b>　「有興趣的話，私訊我，先做個免費的好菌檢測。」</p></div></details>
+<h2>說故事，不銷而銷</h2>
+<div class="say" style="font-family:'Noto Serif TC',serif;font-size:17px">不要只會說產品成分，要學會把產品放進生活說故事。<br><span style="font-size:14px;font-family:'Noto Sans TC',sans-serif;color:var(--mut)">不要小看日常的每一天，這些都是信任堆疊的累積。</span></div>
+<p class="mut">客人不是被產品說服，是被「這就是我」說服。好故事讓人先有感覺，再想知道你在吃什麼。下面是一套可以直接套用的做法。</p>
+<div class="card"><b>故事 5 格公式</b><ol style="margin:6px 0 0;padding-left:20px"><li><b>場景</b>：具體的時間、地點。「週三晚上 9 點，電梯裡。」</li><li><b>小卡關</b>：說情緒或處境，不說症狀。「又累又不想煮。」</li><li><b>小決定</b>：一個很小的動作。「我先喝了一杯水。」</li><li><b>畫面</b>：用感官細節，產品只是道具。「撕開一包，青蘋果的味道。」</li><li><b>留白</b>：用提問收尾。「你的一天，最想先顧哪一段？」</li></ol></div>
+<div class="edu"><b class="t">一條底線：故事可以編情境，不能編結果</b><ul><li>可以：「想像一下」、「有一種日子」開頭的情境小故事，讓客人看見自己。</li><li>不可以：編造真實客人、案例、心得，或寫「吃了之後變好」的結果。</li><li>不可以：卡關寫成症狀或疾病。寫「累、趕、愧疚、不想煮」，不寫「便秘、過敏、失眠」。</li><li>真實發生的事，直接說「這是我的真實經驗」，效果最好。</li></ul></div>
+<h3>情境小故事範例（想像一下版）</h3>
+<details><summary><b style="font-size:16px">週三晚上的便當</b></summary><div class="in scr"><p><b>開頭</b>　想像一下，週三晚上 9 點，你剛下班，電梯裡只有你和手上的便當。</p><p><b>故事</b>　今天又是外食，午餐是便當，晚餐也是。你有一點愧疚，但也真的沒力氣煮。回到家，你沒有再責備自己，只是把水燒開，倒一杯，撕開一包放在桌上，明天早上起床第一件事，就吃它。</p><p><b>收尾</b>　不用一下子改變全部，把一件小事變成固定。你的一天，最想先顧哪一段？</p></div></details>
+<details><summary><b style="font-size:16px">媽媽的口袋</b></summary><div class="in scr"><p><b>開頭</b>　有一種媽媽，包包裡永遠有濕紙巾、小餅乾，還有一個「以防萬一」的小袋子。</p><p><b>故事</b>　出門前五分鐘，孩子在找鞋，你在找鑰匙。你突然想到：今天的小習慣，還沒做。你把一包放進口袋，心想：中午再說。不用完美，只要記得。</p><p><b>收尾</b>　當媽媽已經很忙，我們都需要不費力的方法。你的口袋裡，有什麼「以防萬一」？</p></div></details>
+<details><summary><b style="font-size:16px">爸媽的餐桌</b></summary><div class="in scr"><p><b>開頭</b>　我媽總說：「我們吃得很簡單。」</p><p><b>故事</b>　簡單的意思，常常是一盤青菜、一碗白飯，然後就說夠了。我沒有勸她多吃什麼，只是下次回家，把一包放在她的茶杯旁邊，說：「早上喝水的時候順便吃。」她嘴上說多此一舉，隔天卻先問我：「那個還有嗎？」</p><p><b>收尾</b>　愛不一定要說出口，有時候是放在杯子旁邊的一個小東西。你最想為誰準備？</p></div></details>
+<p class="mut">三則都是情境小故事，不是真實個案。發的時候請保留「想像一下」這類開頭，或改成你自己的真實經驗。</p>
+<h3>更多情境小故事（想像一下版）</h3>
+<details><summary><b style="font-size:16px">辦公室下午三點的抽屜</b></summary><div class="in scr"><p><b>開頭</b>　想像一下，下午三點，辦公室安靜下來，你的抽屜裡有一個小小的東西。</p><p><b>故事</b>　午餐吃得很快，下午又接連三個會。你拉開抽屜，沒有拿零食，只是看了一眼，想起今天早上的那件小事：你已經做到了。很小，但只屬於你。</p><p><b>收尾</b>　你的抽屜裡，有什麼只屬於你的小儀式？</p></div></details>
+<details><summary><b style="font-size:16px">回老家的行李箱</b></summary><div class="in scr"><p><b>開頭</b>　有一種行李箱，一半是衣服，一半是給家人的東西。</p><p><b>故事</b>　出發前一天，你把每個人的份都整理好：給弟弟的、給爸的、給媽的，還有給自己的。你突然發現，你很會照顧別人，卻常常最後才排到自己。你把自己的那份放在最上面。</p><p><b>收尾</b>　你最近，把自己排在第幾順位？</p></div></details>
+<details><summary><b style="font-size:16px">聚餐隔天的早晨</b></summary><div class="in scr"><p><b>開頭</b>　想像一下，昨晚的火鍋很開心，今天早上鬧鐘響的時候，你有一點後悔。</p><p><b>故事</b>　你沒有責備自己，只是起床、喝水、吃早餐前做那件小事。窗外有一點陽光。你告訴自己：一頓不用代表什麼，回到習慣，才是重點。</p><p><b>收尾</b>　一頓飯不能決定什麼，你的日常，才是。</p></div></details>
+<details><summary><b style="font-size:16px">陪孩子寫功課的八點半</b></summary><div class="in scr"><p><b>開頭</b>　有一種夜晚，你一邊聽孩子唸課文，一邊在腦袋裡排明天的行程。</p><p><b>故事</b>　孩子問你：「媽媽，你今天有吃水果嗎？」你愣了一下，笑了。原來孩子都在看。你想：想讓他們學會照顧自己，我也要先做給他們看。</p><p><b>收尾</b>　你想讓孩子看到的，是怎麼樣的你？</p></div></details>
+<details><summary><b style="font-size:16px">一個人的早晨五分鐘</b></summary><div class="in scr"><p><b>開頭</b>　想像一下，早上 6 點半，家裡還沒有人醒。</p><p><b>故事</b>　這是一天裡，唯一屬於你的五分鐘。你燒水、坐下，撕開一包。沒有手機，沒有訊息。你突然覺得，被好好對待這件事，原來可以從這麼小的地方開始。</p><p><b>收尾</b>　你的一天，有五分鐘是屬於自己的嗎？</p></div></details>
+<details><summary><b style="font-size:16px">旅行第三天</b></summary><div class="in scr"><p><b>開頭</b>　有一種旅行，到了第三天，行程滿了，腳也累了，只想吃一頓簡單的。</p><p><b>故事</b>　你在飯店的小桌子前，把行李裡最輕的那包拿出來。出門在外，飲食很難完美，但習慣可以跟著你走。你把它放回口袋，明天繼續。</p><p><b>收尾</b>　你出門在外，有什麼一定會帶的小東西？</p></div></details>
+<p class="mut">以上都是情境小故事，不是真實個案。發文時請保留「想像一下」、「有一種」這類開頭。</p>
+<h3>情境種子（拿去發想）</h3>
+<div class="card"><ul><li>加班到很晚，只想吃點簡單的</li><li>聚餐後的隔天早上</li><li>旅行行李箱裡的小東西</li><li>陪孩子寫作業的 8 點半</li><li>回老家，看到爸媽的餐桌</li><li>早上五分鐘，只想先對自己好一點</li><li>辦公室下午三點的抽屜</li><li>睡前刷牙後的一分鐘</li></ul></div>
+<h3>挖出你自己的真實故事（5 問）</h3>
+<div class="card"><ol style="margin:0;padding-left:20px"><li>你第一次吃的那天，發生什麼事？</li><li>你為什麼開始在意自己的好菌或飲食？</li><li>你最常在什麼場景吃？那一刻你在想什麼？</li><li>有沒有一次，別人問你「你在吃什麼」？你怎麼回答？</li><li>你想對跟以前的自己一樣的人，說什麼？</li></ol><div class="say">把這 5 題的答案貼給 AI，說：「請把這些寫成 30 秒的故事口播，用 5 格公式，不要講功效。」</div></div>
+<h2>爆款貼文 × 七步成交</h2>
+<p class="mut">輪播貼文一頁一步，每頁勾一個互動：停留 → 收藏 → 收藏 → 共鳴 → 信任 → 分享 → 留言。</p>
+<div class="card" style="padding:8px 12px"><table class="tb"><tr><th>頁</th><th>這頁寫什麼</th></tr>
+<tr><td>P1 封面</td><td><b>情境 Hook｜這在說我</b><br>他站過的場景＋一個鉤子，不提益生菌。勾：停留＋點進</td></tr>
+<tr><td>P2 破迷思</td><td><b>痛點照鏡｜原來我卡在這裡</b><br>「不是你不夠認真，是外食、作息、蔬菜三件事都缺」。勾：收藏</td></tr>
+<tr><td>P3 清單</td><td><b>選擇羅盤｜原來該這樣選</b><br>可截圖的清單：買益生菌前先看 5 件事。勾：收藏（核心頁）</td></tr>
+<tr><td>P4 分眾</td><td><b>差異放大｜這樣看真的不一樣</b><br>分型：外食多／作息亂／菜吃少，讓他對號入座。勾：共鳴</td></tr>
+<tr><td>P5 證據</td><td><b>證據瀑布｜我可以相信</b><br>查得到的事實：有編號的研究、SGS 檢驗、SNQ 公開查詢。勾：信任</td></tr>
+<tr><td>P6 金句</td><td>一句能單獨截圖轉發的話，例如「菌、菌的食物、菌的產物，缺一不可」。勾：分享</td></tr>
+<tr><td>P7 CTA</td><td><b>CTA 敲門｜我願意先問問看</b><br>留言關鍵字領懶人包，只放一個動作。勾：留言</td></tr>
+<tr><td>私訊</td><td><b>私訊成交｜好，我要怎麼開始</b><br>先問三題 → 看他家裡那罐 → 他問了才講牌子 → 報價</td></tr></table></div>
+<p class="mut">益生菌線的權威不靠名人，靠「查得到的事實」。</p>
+<div class="edu"><b class="t">和原課程不一樣的兩頁</b><ul><li>P2 原本是「不是意志力，是菌在替你點菜」，暗示益生菌會影響食慾、體重，改成生活處境。</li><li>P6 原本是「只有菌，幾億都留不住」，帶有效果比較，改成三合一的架構說法。</li></ul></div>
+
+<h2>七步流程｜限動發文範例</h2>
+<p class="mut">共鳴 → 知識 → 答案 → 出口。一天挑 3～4 則，產品可有可無，出口一律是「諮詢」，不是賣。</p>
+<div class="lt b"><h3>初階｜快速共鳴</h3><ol><li><b>情境 Hook</b>：中午又是便當，晚上又是外送？不是你不夠認真。</li><li><b>痛點照鏡</b>：外食族真正難的，是水、纖維、作息三件都缺。</li><li><b>選擇羅盤</b>：買益生菌前先看 5 件事：菌株編號／益生質／後生元／認證／能不能天天吃。</li><li><b>差異放大</b>：我是外食多、菜吃少那型，所以早上空腹一包、睡前一包。</li><li><b>證據瀑布</b>：為什麼要找有編號的？有編號才查得到研究。</li><li><b>CTA 敲門</b>：不確定適合你的是什麼？私訊我幫你看。</li><li><b>私訊成交</b>：先問你三題（外食幾餐、幾點睡、最在意什麼），再幫你整理方向。</li></ol></div>
+<div class="lt b"><h3>中階｜建立認知</h3><ol><li><b>情境 Hook</b>：十一點明明不餓，手還是伸進零食櫃。</li><li><b>痛點照鏡</b>：便當、咖啡當水、小吃、菜三口，你中幾個？</li><li><b>選擇羅盤</b>：益生菌＋益生質＋後生元，菌、菌的食物、菌的產物。</li><li><b>差異放大</b>：不是一包解決，是一套日常：水、菜、作息都有做，再加一個固定的習慣。</li><li><b>證據瀑布</b>：三合一每一樣都查得到：乳果寡糖／L-137／SNQ、SGS 公開查詢。</li><li><b>CTA 敲門</b>：Ⓐ外食多 Ⓑ作息亂 Ⓒ菜吃少，你是哪一型？我回你先看哪一項。</li><li><b>私訊成交</b>：家裡已經有一罐的，先幫你對 5 關，過幾關說幾關，不會叫你換。</li></ol></div>
+<div class="lt b"><h3>高階｜深化價值</h3><ol><li><b>情境 Hook</b>：同一家便當吃了五年，差的不是便當。</li><li><b>痛點照鏡</b>：畫出你的生活卡關地圖：外食／水喝不夠／作息／蔬菜。</li><li><b>選擇羅盤</b>：看得懂成分表，才不被「億」騙：拉丁學名＋編號、寡糖類、熱處理乳酸菌。</li><li><b>差異放大</b>：一般益生菌 vs 三合一差在哪：菌＋菌的食物＋菌的產物。</li><li><b>證據瀑布</b>：信任四面向：專業、透明、一致、可驗證。有編號、成分表看得懂、查得到。</li><li><b>CTA 敲門</b>：不用先買，我先陪你找出最值得先改的那 20%，私訊我。</li><li><b>私訊成交</b>：說清楚依據、價格和下一步：「你這型先看第 N 項」。</li></ol></div>
+<div class="edu"><b class="t">和原課程不一樣的地方</b><ul><li>原範例是用「減脂、體重停了三週、褲子鬆了」帶入益生菌，會讓人把益生菌和減重連在一起，這頁全部改成外食和作息的情境。</li><li>「腸道是第二大腦，是菌在替你點菜」這類說法也拿掉了。</li></ul></div>
+
+<h2>打造你自己的口播助理（GPT／Claude 指令）</h2>
+<p class="mut">回答下面 8 個問題，按「產生指令」，就會得到一段可以直接貼進 ChatGPT、Claude 或任何 AI 的指令。它會用你的說話方式寫口播，也會自動避開不能說的內容。</p>
+<div class="card" id="gb">
+<label class="q">1. 你是誰？（身份、年資、專長）<textarea data-k="who" placeholder="例如：全職媽媽，賣婕樂纖兩年，主要經營 IG 限動"></textarea></label>
+<label class="q">2. 你的客人主要是誰？<textarea data-k="ta" placeholder="例如：30～40 歲的上班族媽媽，常外食、孩子還小"></textarea></label>
+<label class="q">3. 你自己每天怎麼吃？（時間、場景、感覺，只講真實的）<textarea data-k="habit" placeholder="例如：早上起床空腹一包，旅行也會帶"></textarea></label>
+<label class="q">4. 你的說話風格？（可貼 3 句你平常會說的話）<textarea data-k="tone" placeholder="例如：像朋友聊天，會用「欸」、「真的」，不喜歡太正式"></textarea></label>
+<label class="q">5. 你常發的內容？（限動、短影音、貼文、私訊）<textarea data-k="ch" placeholder="例如：每天 3～5 則限動，每週 2 支 30 秒短影音"></textarea></label>
+<label class="q">6. 客人最常問你什麼？<textarea data-k="faq" placeholder="例如：會不會很貴、小孩可以吃嗎、什麼時候吃"></textarea></label>
+<label class="q">7. 你想讓 AI 幫你做什麼？<textarea data-k="job" placeholder="例如：每週幫我想 7 則限動口播、回覆客人私訊"></textarea></label>
+<label class="q">8. 你不想出現的字或風格？<textarea data-k="avoid" placeholder="例如：不要太業務、不要太多驚嘆號"></textarea></label>
+<button class="gbtn" id="gg">產生口播助理指令</button><button class="gbtn" id="gs" style="background:transparent;color:var(--jade);border:1.5px solid var(--jade)">產生故事助理指令（會說故事）</button>
+<div id="go" hidden><textarea id="gt" readonly style="min-height:260px;margin-top:12px"></textarea><button class="gbtn" id="gc">複製指令</button><p class="mut" id="gm" hidden>已複製，貼到 AI 的對話或自訂指令裡。</p></div>
+<div class="edu" style="margin-top:14px"><b class="t">使用前請注意</b><ul><li>AI 寫出來的內容，請你自己看過再發，尤其是有沒有出現功效說法。</li><li>公司內部的教育訓練圖、功效對照表，不要貼進公開的 GPT 或 AI 對話裡。</li><li>回答時只寫你真實的經驗，不要編故事、不要寫個案。</li></ul></div></div>
+<h2>一週內容日曆</h2>
+<p class="mut">不知道今天發什麼，就照這個走。每天 1 個主題，搭配上面的口播，一週大約發 15～20 則，不用每則都完美。</p>
+<div class="card"><b>週一｜開週習慣日</b><span class="mut">　限動 3 則</span><p style="margin:6px 0 4px">早晨例行：起床一杯水、一包好菌、吃早餐。</p><span class="mut">可用：日常口播「早晨例行」</span></div>
+<div class="card"><b>週二｜認識三合一</b><span class="mut">　短影音 1 支（30 秒）</span><p style="margin:6px 0 4px">用「補好菌、顧好菌、養好菌」講清楚這款是什麼。</p><span class="mut">可用：專業感句庫、30 秒介紹</span></div>
+<div class="card"><b>週三｜分享我的生活</b><span class="mut">　限動 3 則</span><p style="margin:6px 0 4px">外食、聚餐、加班後，我怎麼回到固定習慣。</p><span class="mut">可用：日常口播「外食聚餐後」</span></div>
+<div class="card"><b>週四｜送價值日</b><span class="mut">　貼文或限動 1 則</span><p style="margin:6px 0 4px">發好菌 × 葉黃素天然食物懶人包的預告，邀請私訊領取。</p><span class="mut">可用：懶人包 PDF／網頁</span></div>
+<div class="card"><b>週五｜家人日</b><span class="mut">　限動 3 則</span><p style="margin:6px 0 4px">幫孩子、幫爸媽準備的小習慣，提醒特殊情況先問專業人員。</p><span class="mut">可用：日常口播「帶孩子出門」</span></div>
+<div class="card"><b>週六｜互動日</b><span class="mut">　限動投票或提問</span><p style="margin:6px 0 4px">「你今天有喝水嗎？」、「你的好菌補夠了嗎？」，再邀請做好菌檢測。</p><span class="mut">可用：好菌檢測連結</span></div>
+<div class="card"><b>週日｜我的紀錄</b><span class="mut">　限動 2 則</span><p style="margin:6px 0 4px">回顧這週我做到了什麼，不談功效，只講持續。</p><span class="mut">可用：日常口播「分享自己的紀錄」</span></div>
+<div class="card"><b>發文小原則</b><ul style="margin-top:6px"><li>連續發比一次發很多重要。每天先做一則就好。</li><li>每週至少 1 次，邀請客人私訊做「好菌檢測」。</li><li>有客人做完沒買，送懶人包，不追問。</li><li>全程不講功效、不貼個案。</li></ul></div>
+<div class="say">貼給你的 AI 助理：「請依照上面的一週內容日曆，幫我寫出本週每天的口播稿，每則 30 秒內，結構是開場、內容、收尾，先給我週一和週二。」</div>
+<h2>記住這 4 句話</h2>
+<div class="four"><div><i>01</i>先找人，不要先找產品。</div><div><i>02</i>先講生活，不要先講成分。</div><div><i>03</i>先創造共鳴，再介紹選擇。</div><div><i>04</i>讓客人先說出自己的需求。</div></div>
+<h2>益生菌三大 TA</h2>
+<p class="mut">先想清楚你在跟誰說話，再挑上面的口播。同一句話，對首購和回購的人效果不一樣。</p>
+<div class="lt b"><p class="pill">STOP 01｜第一次購買</p><h3>首購族群</h3><ol><li>第一次接觸益生菌的人</li><li>從未補充過保健食品的人</li><li>想開始建立日常保養習慣的人</li><li>不知道如何挑選益生菌的人</li><li>對益生菌成分不了解的人</li><li>擔心產品品質與安全性的人</li><li>曾經觀望卻遲遲沒有購買的人</li><li>想替家人挑選營養補充品的人</li></ol><span class="tag">切入：菌株・成分・安全・適用性</span><p class="mut" style="margin-top:6px">可用：專業感句庫、「怎麼挑益生菌？」、「小孩幾歲可以吃？」</p></div>
+<div class="lt b"><p class="pill">STOP 02｜曾經購買</p><h3>回購族群</h3><ol><li>固定補充益生菌的老顧客</li><li>家庭成員一起補充的顧客</li><li>即將吃完、需要補貨的顧客</li><li>曾經購買但中斷補充的人</li><li>習慣一次購買多盒的顧客</li><li>喜歡趁優惠活動囤貨的人</li><li>認同品牌品質的忠實顧客</li><li>有意願長期維持補充習慣的人</li></ol><span class="tag">切入：日常習慣・家庭補充・補貨</span><p class="mut" style="margin-top:6px">可用：日常口播「分享自己的紀錄」、售後紅綠燈</p></div>
+<div class="lt b"><p class="pill">STOP 03｜有需求的潛在顧客</p><h3>痛點族群</h3><ol><li>三餐不定時的外食族</li><li>蔬果攝取不足的人</li><li>飲食不均衡的上班族</li><li>經常外食的學生族</li><li>生活忙碌的媽媽族</li><li>重視腸道菌叢保養的人</li><li>想建立規律生活習慣的人</li><li>重視全家人日常營養補充的人</li></ol><span class="tag">切入：外食・飲食不均衡・營養補充</span><p class="mut" style="margin-top:6px">可用：30 秒口播「外食上班族」、情境小故事「週三晚上的便當」</p></div>
+<div class="edu"><b class="t">「痛點」只講生活處境</b><ul><li>這裡的痛點是外食、忙、挑食、作息亂，不是症狀或疾病。</li><li>對客人說「你常外食嗎？」可以；說「你是不是常便秘？」不行。</li></ul></div>
+
+<h3>360° TA 補充（生活場景版）</h3>
+<p class="mut">從公司 360° TA 裡挑出用生活場景就能切入的 5 群。原圖裡和疾病、研究數據綁在一起的族群，不拿來做對外內容。</p>
+<div class="jr"><h3>重視菌株證據的家庭</h3><dl><dt>TA</dt><dd>幫孩子、伴侶或長輩比較配方的人</dd><dt>卡點</dt><dd>菌數、專利看不懂，想知道怎麼評估</dd><dt>可以聊</dt><dd>四大益生菌＋益生質＋L-137 後生元、三大科學實證</dd></dl></div>
+<div class="jr"><h3>外食忙碌、少蔬果族</h3><dl><dt>TA</dt><dd>外食多、蔬果少、水喝不夠的大人</dd><dt>卡點</dt><dd>熬夜、壓力、時間不夠，想要好持續的方法</dd><dt>可以聊</dt><dd>日本專利乳果寡糖（好菌的食物）、一包 2g 隨手吃</dd></dl></div>
+<div class="jr"><h3>托育、幼兒園家庭</h3><dl><dt>TA</dt><dd>孩子剛進團體生活的家長</dd><dt>卡點</dt><dd>孩子挑口味、不愛吞膠囊</dd><dt>可以聊</dt><dd>青蘋果口味、粉狀好入口、加驗嬰幼兒食品法規項目</dd></dl></div>
+<div class="jr"><h3>銀髮保養與照護族</h3><dl><dt>TA</dt><dd>65 歲以上能自理的長輩，和照顧長輩的家人</dd><dt>卡點</dt><dd>希望日常保養簡單、容易持續</dd><dt>可以聊</dt><dd>每天一包、安全檢驗；長輩有慢性病或用藥，先問醫師</dd></dl></div>
+<div class="jr"><h3>高壓忙碌上班族</h3><dl><dt>TA</dt><dd>40～64 歲、工作壓力大的大人</dd><dt>卡點</dt><dd>忙到作息亂，想有個簡單的日常保養</dd><dt>可以聊</dt><dd>L-137 專利後生元、每天固定一個時間吃</dd></dl></div>
+
+<h3>十大消費族群（益生菌適用的 7 群）</h3>
+<p class="mut">公司「益生菌 × 高鈣晶亮凍」十大族群裡，挑出益生菌可以用生活場景聊的 7 群。</p>
+<div class="card"><ul><li><b>家中有孩子進入團體生活的媽媽</b>：孩子開始托嬰、上學，媽媽在意全家換季和日常營養保養</li><li><b>孕婦、準媽媽</b>：重視營養補充、產品成分和安全性（先問醫師）</li><li><b>重視保健食品品質的媽媽</b>：在意成分、專利菌株、研發、檢驗、認證，想找適合全家的</li><li><b>原本就有補充習慣的人</b>：已有日常保養觀念，願意了解不同品牌的特色和差異</li><li><b>重視全家健康的媽媽</b>：不只幫孩子，也希望自己、另一半和家人一起養成習慣</li><li><b>上班族女性</b>：工作忙、外食多、作息不規律，想要方便的補充方式</li><li><b>長期外食、飲食不均衡的人</b>：蔬果吃不夠、三餐不固定</li></ul></div>
+<div class="edu"><b class="t">沒放進來的 3 群</b><ul><li>「有排便、腸胃道困擾」和「有過敏體質困擾」：族群定義本身就是症狀，對外拿來發文會變紅燈。客人主動提起，用「客人主動說我有過敏」那組回答。</li><li>「重視孩子眼睛與成長發育」：這是晶亮凍的族群。</li><li>原圖寫的「抵抗力」，這裡改成「換季和日常營養」。</li></ul></div>
+
+<h2>零售三大關鍵族群</h2>
+<p class="mut">客人跟你買，通常是這三種原因之一。看懂他是哪一種，就知道動態要怎麼鋪。</p>
+<div class="lt b"><h3>信任型</h3><p><b>為何跟我買</b>：信任你這個人，相信你的人品，跟你買安心</p><p><b>買什麼</b>：你的推薦與陪伴、安心保障、長期服務</p><p><b>怎麼做</b>：先經營人再賣產品，分享真實使用心得，持續提供專業知識，做好售後和口碑</p><span class="tag">動態鋪陳：曝光生活 → 帶入共鳴 → 價值認同 → 日常使用 → 痛點連結 → 安心成交</span></div>
+<div class="lt b"><h3>稀缺型</h3><p><b>為何跟我買</b>：錯過就沒有了，限時、限量、獨家、一年一次</p><p><b>買什麼</b>：專屬優惠、買到便宜、有賺到的感覺</p><p><b>怎麼做</b>：限量組合、期間限定，說清楚數量和搶購時間</p><span class="tag">動態鋪陳：曝光生活 → 喚醒需求 → 價值建立 → 活動誘因 → 限時提醒 → 從眾成交</span><p class="mut" style="margin-top:6px">數量和期限一定要照實說。沒有真的快沒了，就不要說快沒了。</p></div>
+<div class="lt b"><h3>需求型（原課程：解決問題型）</h3><p><b>為何跟我買</b>：他有生活上的需求，剛好你的產品適合他的習慣</p><p><b>買什麼</b>：一個簡單、能持續的方法</p><p><b>怎麼做</b>：先諮詢再推薦，先了解他的生活（外食、作息、家人），再分享你的吃法和產品特色</p><span class="tag">動態鋪陳：生活處境切入 → 情境共鳴 → 知識教育 → 產品定位 → 專業解答 → 成交</span></div>
+<div class="edu"><b class="t">為什麼改成「需求型」</b><ul><li>原課程寫「對症推薦、用案例證明」，對保健食品來說就是紅燈。</li><li>我們保留同樣的鋪陳順序，只把「症狀」換成「生活處境」，把「案例證明」換成「成分、專利、獎項、我的習慣」。</li></ul></div>
+
+<h2>日常鋪陳，非常重要</h2>
+<p class="mut">益生菌不是吃了馬上有感覺的東西，所以不要等到有活動才出現。</p>
+<div class="a4"><div><b>固定出現</b>讓人記得你存在</div><div><b>日常連結</b>拉近關係、建立信任</div><div style="grid-column:1/-1"><b>自然轉換</b>需求浮現時，產品剛好出現</div></div>
+<h3>新零售四大循環</h3>
+<p class="mut">從產品分享、需求諮詢到售後回購，串成一個完整的成交循環。持續累積，零售經營會越做越穩。</p>
+<div class="a4"><div><b>01 增加客源</b>讓更多人認識你<br>・日常曝光<br>・個人生活分享<br>・建立個人風格<br>・吸引對的人關注</div><div><b>02 打造引力</b>讓有需求的人想問你<br>・產品專業分享<br>・真實使用經驗<br>・解決顧客疑問<br>・建立信任與好感</div><div><b>03 成交客人</b>讓適合的人放心買<br>・需求諮詢與推薦<br>・產品價值呈現<br>・消除顧客疑慮<br>・引導成交</div><div><b>04 服務回購</b>讓有需要的人再找你<br>・使用經驗追蹤<br>・主動關心與互動<br>・持續提供價值<br>・建立長期回購</div></div>
+<h3>關鍵七步驟速記（客人心裡的那句話）</h3>
+<div class="card"><ol style="margin:0;padding-left:20px"><li><b>情境 Hook</b>「這在說我！」：用生活情境引起共鳴</li><li><b>痛點照鏡</b>「原來我卡在這裡。」：點出客人的生活處境</li><li><b>選擇羅盤</b>「原來應該這樣選。」：提供正確觀念，引導正確選擇</li><li><b>差異放大</b>「這真的不一樣。」：講產品特色，建立購買理由</li><li><b>證據瀑布</b>「我可以相信。」：品牌、專利、檢驗、獎項和自己的習慣</li><li><b>CTA 敲門</b>「我願意先問問看。」：主動邀請互動，降低詢問門檻</li><li><b>私訊成交</b>「好，我要試試看。」：回覆疑問，引導成交和開始使用</li></ol></div>
+<div class="edu"><b class="t">和原課程不一樣的兩格</b><ul><li>痛點照鏡：原課程寫「放大問題意識」，這裡只點出生活處境，不放大身體問題。</li><li>證據瀑布：原課程寫「分享真實案例」，這頁不用客人案例，改用品牌、專利、檢驗、獎項。</li></ul></div>
+
+<h2>高機能益生菌｜七步驟表達</h2>
+<p class="mut">起：勾住注意 → 承：照見卡點 → 轉：建立選擇理由 → 合：私訊成交</p>
+<div class="lt g"><h3>A｜在意日常防護（日常營養型）</h3><ol><li><b>情境 Hook</b>：換季、上學、工作忙，你也開始在意全家的日常營養補充嗎？</li><li><b>痛點照鏡</b>：想把日常照顧做好，卻常常忙到忘記，補充也難持續。</li><li><b>選擇羅盤</b>：先看菌株、菌數、標示和食用方式，再比較適不適合。</li><li><b>差異放大</b>：把益生菌變成每天都做得到的營養補充小習慣。</li><li><b>證據建立</b>：整理產品標示、菌株資料和研究來源，讓客人看清楚。</li><li><b>CTA 敲門</b>：想了解益生菌日常補充？私訊我「益生菌」。</li><li><b>私訊成交</b>：先了解家人年齡、飲食和作息，再提供產品資訊。</li></ol><div class="say">客：最近換季，我想幫全家做好日常保養。<br>你：我先了解你們的作息，再整理資訊給你。</div><span class="tag">成交關鍵：從日常需求開始聊</span></div>
+<div class="lt yl"><h3>C｜在意飲食作息（飲食作息型）</h3><ol><li><b>情境 Hook</b>：外食多、蔬菜少，你也開始在意自己的飲食習慣了嗎？</li><li><b>痛點照鏡</b>：飲食作息不固定，想調整卻不知道從哪裡開始。</li><li><b>選擇羅盤</b>：先看飲食纖維、水分、作息，再比較益生菌資訊。</li><li><b>差異放大</b>：把補充方式融入生活，重點是方便而且能持續。</li><li><b>證據建立</b>：整理菌株、食用方式和產品標示，不保證任何改變。</li><li><b>CTA 敲門</b>：想聊聊外食族怎麼顧日常？私訊我「外食」。</li><li><b>私訊成交</b>：先問飲食、喝水和作息，再整理適合的資訊。</li></ol><div class="say">客：我常常外食，作息也不太規律。<br>你：那我們先聊你的飲食和作息，再一起看補充的選擇。</div><span class="tag">成交關鍵：先理解習慣，再談產品</span></div>
+<div class="edu"><b class="t">原課程的 B「在意敏感肌膚」和 C 的「排便、順暢」為什麼沒放</b><ul><li>對外發文把「過敏、異位性皮膚、排便」和產品放在一起，就算沒說改善，也會被看成在暗示功效，屬於紅燈。</li><li>客人主動提到時，用上面「客人主動說我有過敏」那組回答。C 的 CTA 關鍵字也從「順暢」改成「外食」。</li></ul></div>
+
+<h2>客人的購買旅程｜每一站卡在哪？</h2>
+<p class="mut">需求確認 → 資訊搜尋 → 方案評估 → 購買決策 → 購後評估。下面整理課程裡的第 1、3、5 站。<b>客人心聲只是可能的情境，不是讀心，先提問確認。</b></p>
+<div class="a4"><div><b>知曉度</b>知道品牌，但不清楚用途、規格或怎麼用</div><div><b>接受度</b>覺得跟自己無關、怕買錯、口味不合</div><div><b>可負擔性</b>付得起但覺得不值得，或真的預算不夠</div><div><b>可取得性</b>不知道去哪買、交貨和售後找不到人</div></div>
+<p class="mut" style="text-align:center;margin:0">4A 診斷：這四種卡關可能同時存在，客人也可能跳站。</p>
+
+<h3>01 需求確認｜客人還沒想買，先讓他看見自己的需求</h3>
+<div class="jr"><h3>滑到貼文就略過</h3><dl><dt>心聲</dt><dd>我現在沒特別不舒服，為什麼需要？</dd><dt>沒說出口</dt><dd>是不是又要製造焦慮叫我買？</dd><dt>可以問</dt><dd>你平常比較在意飲食作息、使用便利，還是家人的日常營養？</dd><dt>接著做</dt><dd>先確認真實需求；沒有需求就提供資訊，不硬推。</dd></dl></div>
+<div class="jr"><h3>看過很多次，從未詢問</h3><dl><dt>心聲</dt><dd>我知道你在賣，但不知道跟我有什麼關係。</dd><dt>沒說出口</dt><dd>這是給誰用的？適合我的生活嗎？</dd><dt>可以問</dt><dd>你想了解日常補充，還是幫家人找適合的？</dd><dt>接著做</dt><dd>先說使用情境，再說產品。</dd></dl></div>
+<div class="jr"><h3>幫家人挑，自己沒興趣</h3><dl><dt>心聲</dt><dd>我是幫家人看，不是自己要吃。</dd><dt>沒說出口</dt><dd>適用年齡？飲食限制？家人願意吃嗎？</dd><dt>可以問</dt><dd>你是幫誰挑？有什麼口味、劑型或飲食上的限制？</dd><dt>接著做</dt><dd>依標示核對適用對象；特殊健康狀況請專業人員確認。</dd></dl></div>
+<div class="edu"><b class="t">別踩這個坑</b><ul><li>別把沒需求當成不懂；別用恐嚇製造需求。</li></ul></div>
+
+<h3>03 方案評估｜客人正在比較，先找出真正的選擇標準</h3>
+<div class="jr"><h3>說「別家比較便宜」</h3><dl><dt>心聲</dt><dd>我想確認你多出的價格值在哪裡。</dd><dt>沒說出口</dt><dd>我在付產品價值，還是品牌溢價？</dd><dt>可以問</dt><dd>你比較的是單盒價格，還是相同用量和規格的成本？</dd><dt>接著做</dt><dd>列出規格、用量、總價和服務，讓客人自己判斷價值。</dd></dl></div>
+<div class="jr"><h3>說「我再想一下」</h3><dl><dt>心聲</dt><dd>我可能有疑慮，但不好意思直接拒絕。</dd><dt>沒說出口</dt><dd>適不適合？會不會買錯？你會不會一直催？</dd><dt>可以問</dt><dd>你主要想確認適不適合、值不值得，還是有別的顧慮？</dd><dt>接著做</dt><dd>聽完再回答；可以給重點摘要，約好要不要之後聯絡。</dd></dl></div>
+<div class="jr"><h3>兩款都在活動，不知道選哪款</h3><dl><dt>心聲</dt><dd>優惠很吸引，但我可能只需要其中一款。</dd><dt>沒說出口</dt><dd>是不是一定要兩款都買才划算？</dd><dt>可以問</dt><dd>你主要需要哪一種日常營養補給？預算大約多少？</dd><dt>接著做</dt><dd>兩款用途分開講；照需求和活動實際規則給選項。</dd></dl></div>
+<div class="edu"><b class="t">別踩這個坑</b><ul><li>「太貴」不是一律降價；「再想想」也不等於預算不足。</li></ul></div>
+
+<h3>05 購後評估｜把第一次購買，經營成下一次信任</h3>
+<div class="jr"><h3>買了卻很少吃</h3><dl><dt>心聲</dt><dd>我忘記了，或不知道怎麼放進生活。</dd><dt>沒說出口</dt><dd>怎麼吃？放哪裡？我是不是吃錯？</dd><dt>可以問</dt><dd>最近吃得順不順？有沒有標示或保存方式想確認？</dd><dt>接著做</dt><dd>幫他看懂標示，找出忘記、口味或不方便的原因。</dd></dl></div>
+<div class="jr"><h3>說「好像沒感覺」</h3><dl><dt>心聲</dt><dd>我期待的體驗沒出現，怕自己買錯。</dd><dt>沒說出口</dt><dd>你是不是會說都是我沒照做？</dd><dt>可以問</dt><dd>你原本期待什麼？目前有哪些體驗或不方便？</dd><dt>接著做</dt><dd>先聽實際經驗；不怪客人、不保證效果。</dd></dl></div>
+<div class="jr"><h3>沒有回購，也沒有推薦</h3><dl><dt>心聲</dt><dd>我可能還沒吃完，也可能不想再買。</dd><dt>沒說出口</dt><dd>你是關心我，還是只想再賣一次？</dd><dt>可以問</dt><dd>目前還有多少？需要補嗎，還是有哪些不符合期待？</dd><dt>接著做</dt><dd>分清庫存、預算、體驗和需求改變；尊重不回購、不推薦。</dd></dl></div>
+<div class="edu"><b class="t">別踩這個坑</b><ul><li>滿意不等於一定會推薦；推薦要尊重意願，不能預設。</li></ul></div>
+
+<h2>售後服務紅綠燈</h2>
+<div class="say" style="font-family:'Noto Serif TC',serif;font-size:17px;text-align:center">成交不是結束，而是服務的開始</div>
+<p class="mut" style="margin-top:10px">在 LINE 好友名稱前面加上 🔴🟡🟢，一眼就知道誰該先關心。我們用「習慣穩不穩」分燈，不用症狀分燈。</p>
+<div class="lt r"><h3>🔴 紅燈｜剛開始</h3><p>剛買、還在找固定時間吃，或吃吃停停。</p><p><b>重點</b>：主動聯繫，確認吃法和時間，陪他做 21 天打卡。</p></div>
+<div class="lt yl"><h3>🟡 黃燈｜習慣養成中</h3><p>有在吃，但還沒變成每天固定。</p><p><b>重點</b>：定期關心使用情況，提醒持續，分享你自己的小習慣。</p></div>
+<div class="lt g"><h3>🟢 綠燈｜穩定</h3><p>已經每天固定，吃法也沒問題。</p><p><b>重點</b>：定期回訪，關心心得，快吃完時提醒補貨。</p></div>
+<div class="edu"><b class="t">為什麼不用症狀分燈</b><ul><li>原課程是看「症狀嚴不嚴重」分紅黃綠，但在對話裡追蹤症狀、要客人回報改善，等於把產品當成治療。</li><li>客人主動說身體不舒服，請他先問醫師，不要用產品回應。</li></ul></div>
+
+<h2>我的顧客，為什麼願意持續回購？</h2>
+<p class="mut">即使是同一個 TA，每位客人願意回購的原因也可能完全不同。比例是講師依自己客人經驗估計，不是實際銷售統計。</p>
+<div class="jr"><h3>01 用了覺得符合原本需求（約 35%）</h3><dl><dt>怎麼做</dt><dd>定期關心使用感受、了解客人的真實體驗、強化正確的吃法觀念</dd></dl></div>
+<div class="jr"><h3>02 全家一起補充，用量增加（約 20%）</h3><dl><dt>怎麼做</dt><dd>了解家庭成員的需求、依年齡給吃法建議、搭配家庭組合優惠</dd></dl></div>
+<div class="jr"><h3>03 售後關心與服務（約 12%）</h3><dl><dt>怎麼做</dt><dd>主動追蹤和補貨提醒、耐心解答使用問題、建立長期信任</dd></dl></div>
+<div class="jr"><h3>04 信任產品品質與品牌把關（約 12%）</h3><dl><dt>怎麼做</dt><dd>分享檢驗報告和專利、品牌研發與專業團隊、持續提供產品新資訊</dd></dl></div>
+<div class="jr"><h3>05 孩子接受度高、補充方便（約 11%）</h3><dl><dt>怎麼做</dt><dd>分享日常補充方式、依孩子年齡給吃法建議、分享自己家的實際做法</dd></dl></div>
+<div class="jr"><h3>06 養成固定補充習慣（約 10%）</h3><dl><dt>怎麼做</dt><dd>記錄使用週期、適時提醒補貨時間、分享日常補充觀念</dd></dl></div>
+<div class="edu"><b class="t">第 1 點的界線</b><ul><li>原課程寫「使用後有感改善」。關心體驗可以，但不要問「有沒有改善什麼症狀」，也不要把客人的改善說法拿去發文。</li><li>可以問：「最近吃得習慣嗎？時間固定下來了嗎？口味還 OK 嗎？」</li></ul></div>
+
+<h2>短語鍵盤，文字該放什麼？</h2>
+<p class="mut">把常用回覆存成手機短語，私訊不用每次重打。建議分 5 類存：</p>
+<div class="card"><ol style="margin:0;padding-left:20px"><li><b>了解客人的生活</b>：「是你自己要吃，還是幫家人準備？」「平常外食多嗎？」</li><li><b>客人會有的疑慮</b>：直接存上面「客人常問」的回答範本</li><li><b>我的故事</b>：用「挖出你自己的真實故事」5 問寫好一段</li><li><b>優惠方案</b>：活動組合、價格、愛用者會員價</li><li><b>售後服務</b>：吃法提醒、21 天打卡、補貨提醒</li></ol></div>
+<div class="edu"><b class="t">短語裡不要放</b><ul><li>症狀問診（「你身上有紅疹嗎？」「現在吃什麼藥？」）</li><li>「調理」、「改善」、「治療」這類字</li><li>要客人拍身體狀況、每天回報改善</li></ul></div>
+
+<h2>成交卡住了？從這四個環節找答案</h2>
+<div class="lt b"><p class="pill">01</p><h3>影片內容：吸引來的是對的人嗎？</h3><p>檢查開頭、故事共鳴、觀眾需求，影片有沒有清楚引導下一步。</p><span class="tag">追蹤：觀看數、有效詢問數、詢問來源</span></div>
+<div class="lt b"><p class="pill">02</p><h3>私訊諮詢：有沒有真正理解客人？</h3><p>有沒有先問需求、釐清疑慮、說明適用資訊，而不是一開始就急著推產品。</p><span class="tag">追蹤：有效諮詢數、成交數、成交率</span></div>
+<div class="lt b"><p class="pill">03</p><h3>資訊流程：訊息有沒有回得又快又清楚？</h3><p>重複問題有沒有標準回覆、產品資訊完不完整、客人知不知道下一步。</p><span class="tag">工具：短語鍵盤＋IG 自動回覆</span></div>
+<div class="lt b"><p class="pill">04</p><h3>成交之後：有沒有持續服務和追蹤？</h3><p>購後關懷、使用疑問、客人回饋和回購提醒，是不是有固定流程。</p><span class="tag">追蹤：回訪完成數、回購率、回購週期</span></div>
+<div class="flow">找出問題 → 做出調整 → 再次測試</div>
+<p class="mut" style="text-align:center;margin:0">每一次的結果，都是下一次優化的依據。</p>
+
+<h3>私訊的兩個地雷</h3>
+<div class="cols"><div class="no"><h3>開頭就丟一堆語音</h3><ul><li>客人還沒說需求，就收到三段長語音，壓力很大。</li><li>改成：先用一句文字問「是你自己吃，還是幫家人看？」</li></ul></div><div class="no"><h3>自動回覆太直接，亮出要銷售</h3><ul><li>第一則訊息就放「買三送一超優惠」，客人會覺得被推銷。</li><li>改成：先關心、先問需求，活動等客人問到再說。</li></ul></div></div>
+<p class="mut">另外，自動回覆裡也不要放自己的病史和「吃了不再復發」這類經驗，那屬於紅燈。</p>
+
+<h3>顧客數據，用三張圖找下一個改善點</h3>
+<div class="card"><ol style="margin:0;padding-left:20px"><li><b>消費者輪廓</b>：年齡、身份（媽媽、上班族、長輩照顧者）、生活需求</li><li><b>新客來源</b>：哪一支影片、哪一則限動、誰介紹來的</li><li><b>回購客分析</b>：回購原因（口味、方便、售後、優惠、到貨快）和回購週期</li></ol><p class="mut" style="margin:8px 0 0">把每一筆詢問記下來，一個月整理一次，就知道該多拍哪種內容、補強哪段服務。</p></div>
+<div class="edu"><b class="t">記錄時要注意</b><ul><li>記錄「生活需求」，不要記錄客人的病況、症狀、用藥。</li><li>不要做「客人每日回報癢的程度、有沒有吃西藥」這類表單，那是在追蹤病情。</li></ul></div>
+
+<h2>內容三燈號，發文前先對燈</h2>
+<p class="mut">會賣是能力，懂法規才是硬實力。</p>
+<div class="lt g"><h3>綠燈｜放心分享</h3><p>日常生活、育兒孩子、飲食習慣、工作步調、個人真實生活心得、日常營養補充習慣</p><span class="tag">這頁的口播、故事都在綠燈</span></div>
+<div class="lt yl"><h3>黃燈｜介紹以前要確認</h3><p>產品成分與特色、菌株菌數、研究資料、個人食用感受</p><span class="tag">有產品・有對比・無賣場・無連結</span><p class="mut" style="margin-top:6px">發黃燈內容時，前一則和後一則限動也都不能出現賣場或連結。</p><p class="mut" style="margin-top:6px">原課程把「客人的心得和案例」放在黃燈，這頁一律不用。真的要用，先問公司。</p></div>
+<div class="lt r"><h3>紅燈｜不要做</h3><p>治療疾病、改善過敏、預防感冒、保證吃了有效</p><span class="tag">有療效・有產品・有賣場・有連結</span><p class="mut" style="margin-top:6px">前後對比照、就醫紀錄、「吃了某某症狀好了」的截圖，都算紅燈。</p><p class="mut" style="margin-top:6px">課程素材裡常見、這頁都當紅燈的說法：「抗肥胖」「腸道力＝睡眠力」「吃完很好睡」「健康防護罩」「後生元才能真正改善腸道、調理體質」「可以減少過敏的反應」「慢性過敏要吃 3～6 個月」「壞菌多會失眠、便秘」，以及減重前後照配益生菌。原課程把「抗肥胖」和就醫紀錄標成黃燈，這頁不採用。</p></div>
+
+<h2>可說／不可說速查</h2>
+<div class="cols">
+<div class="ok"><h3>可以說</h3><ul><li>菌株名稱、學名、專利和文獻數量</li><li>三合一架構</li><li>獎項與認證</li><li>你自己的吃法和習慣</li><li>活動、價格、買三送一</li></ul></div>
+<div class="no"><h3>不可以說</h3><ul><li>任何症狀、疾病名稱搭配產品</li><li>治療、預防、改善、抗病毒、抗過敏</li><li>保證有效、比藥更好</li><li>「我吃了某某症狀就好了」這類個案</li><li>把內部教育訓練圖、功效對照表轉給客人</li></ul></div>
+</div>
+<p class="mut" style="margin-top:24px">功效相關的完整資料，請以公司內部教育訓練為準，只用於自己學習，不對外轉發。有疑問，先問公司再回覆客人。</p>
+</main>
+<script>
+function build(story){
+ var v={};document.querySelectorAll("#gb [data-k]").forEach(function(e){v[e.getAttribute("data-k")]=e.value.trim()||"（未填）"});
+ var t="你是我的「口播與私訊文案助理」。請用我的口吻，幫我寫婕樂纖高機能益生菌的內容。\n\n【我是誰】"+v.who+"\n【我的客人】"+v.ta+"\n【我自己的真實習慣】"+v.habit+"\n【我的說話風格】"+v.tone+"\n【我發內容的管道】"+v.ch+"\n【客人常問我】"+v.faq+"\n【我不想要的風格】"+v.avoid+"\n\n【你要幫我做的事】"+v.job+"\n\n【產品事實（只是給你查證用，除非內容需要，不要主動列出規格、專利、獎項、菌株名稱）】\n- 三合一：補好菌（BGN4、BORI 專利益生菌）、顧好菌（L-137 專利後生元）、養好菌（乳果寡糖）。\n- 一包 2g，天然青蘋果口味，奶素，30 包一盒。\n- 加驗嬰幼兒食品法規項目，SGS 檢驗。4 個月以上才建議使用。\n- 一般吃法：12 歲以上每天 2 包；1～12 歲以下每天 1 包；4 個月～1 歲以下每天 1/3～1/2 包。建議空腹吃。\n- 實際食用方式與份量，請依健康顧問的建議。有特殊疾病、孕哺，請先諮詢專業人員。\n\n【一定要遵守】\n1. 不講任何功效、症狀、疾病，也不用「改善、預防、治療、抗過敏、提升免疫力、助眠、減壓、保證有效」這類字。\n2. 不編造真實客人、個案或使用心得，不寫「吃了之後變好」的結果，只用我提供的真實習慣。\n3. 不貼出公司內部教育訓練資料。\n4. 內容要生活化、白話，每則口播 30 秒內，結構是：開場、內容、收尾。\n5. 收尾導向：私訊我做「好菌檢測」，1 分鐘免費。\n6. 如果我的要求會讓你寫出功效說法，請先提醒我，再給我安全的改寫版本。\n\n請先用 3 句話確認你理解了，再開始。\n\n【口吻規則（很重要，不要寫成廣告）】\n- 像朋友傳訊息、像在日記裡自言自語，不是在做簡報或業務介紹。\n- 用我提供的「說話風格」當範本，模仿我的用字、句長和語氣。\n- 句子短、口語，可以有一點不完整、停頓，不要排比，不要口號。\n- 一則內容最多提一次產品，而且放在故事中間，不要放在開頭，也不要用產品當標題。\n- 不要列點、不要小標題、不要「首先／其次／最後」。\n- 不要用這類業務詞：立即、限時、搶購、優惠、現貨、熱銷、強力推薦、歡迎私訊、絕對、一定要、不買可惜、專業、高品質、領先。\n- 表情符號最多 2 個，驚嘆號最多 1 個。\n- 結尾用一個很輕的提問或一句心情，不要叫人「快來」、「趕快」、「馬上」。\n- 寫完後請自己檢查一次：如果讀起來像廣告，請重寫成更像朋友聊天的版本，再給我。";
+ if(story){t=t.replace("你是我的「口播與私訊文案助理」。請用我的口吻，幫我寫婕樂纖高機能益生菌的內容。","你是我的「情境故事編劇」。請用我的口吻，把婕樂纖高機能益生菌自然地放進生活故事裡，讓人看完想私訊我，而不是覺得在看廣告。").replace("5. 收尾導向：私訊我做「好菌檢測」，1 分鐘免費。","5. 收尾用一句提問，邀請對方私訊我；產品只是故事裡的道具，不是主角。")+"\n\n【故事規則】\n- 結構用 5 格：場景、小卡關、小決定、畫面、留白提問。\n- 可以創造情境，但請用「想像一下」、「有一種日子」開頭，讓人知道這是情境，不是真實個案。\n- 小卡關只能寫情緒或處境（累、趕、愧疚、不想煮），不能寫症狀或疾病。\n- 不能寫產品帶來的結果或改變。\n- 如果我貼的是我的真實經驗，請照實寫，不要加油添醋。\n- 每次給我 3 個不同場景的版本，每個 30～45 秒。";}
+document.getElementById("gt").value=t;document.getElementById("go").hidden=false;
+}
+document.getElementById("gg").onclick=function(){build(false)};
+document.getElementById("gs").onclick=function(){build(true)};
+document.getElementById("gc").onclick=function(){var e=document.getElementById("gt");e.select();try{document.execCommand("copy")}catch(x){}try{navigator.clipboard.writeText(e.value)}catch(x){}document.getElementById("gm").hidden=false};
+</script>
+
+<div id="toast">已複製，可以去貼上了</div>
+<script>
+(function(){
+ // 目錄
+ var main=document.querySelector('main'),hs=main.querySelectorAll('h2'),nav=document.createElement('nav');nav.className='toc';
+ hs=[].filter.call(hs,function(h){return !h.closest('#pick')});hs.forEach(function(h,i){h.id='s'+i;var a=document.createElement('a');a.href='#s'+i;a.textContent=h.textContent.replace(/[（(].*$/,'').split('，')[0].trim();nav.appendChild(a)});
+ var pk=document.getElementById('pick');pk.parentNode.insertBefore(nav,pk.nextSibling);
+ // 取文字
+ function clean(t){return t.replace(/　/g,' ').replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim()}
+ function textOf(el){
+  if(el.classList.contains('scr')){return clean(Array.prototype.map.call(el.querySelectorAll('p'),function(p){var c=p.cloneNode(true);var b=c.querySelector('b');if(b)b.remove();return c.textContent.trim()}).join('\n'))}
+  var c=el.cloneNode(true);c.querySelectorAll('small,.cpb').forEach(function(x){x.remove()});c.querySelectorAll('br').forEach(function(x){x.replaceWith('\n')});
+  return clean(c.textContent)
+ }
+ function copy(t,btn){
+  var ok=function(){btn.classList.add('done');btn.textContent='✓ 已複製';var to=document.getElementById('toast');to.classList.add('on');
+   setTimeout(function(){btn.classList.remove('done');btn.textContent='📋 複製';to.classList.remove('on')},1600)};
+  var fb=function(){var a=document.createElement('textarea');a.value=t;a.setAttribute('readonly','');a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove();ok()};
+  try{if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(ok,fb)}else fb()}catch(e){fb()}
+ }
+
+ // ===== 今天想發什麼 =====
+ setTimeout(function(){
+ var H=[].filter.call(main.querySelectorAll('h2'),function(h){return !h.closest('#pick')});
+ function secOf(el){var s='';H.forEach(function(h){if(h.compareDocumentPosition(el)&Node.DOCUMENT_POSITION_FOLLOWING)s=h.textContent});return s}
+ function titleOf(el){var d=el.closest('details');if(d){var b=d.querySelector('summary b');return b?b.textContent:''}var c=el.closest('.jr,.lt');if(c){var h=c.querySelector('h3');return h?h.textContent:''}return ''}
+ var items=[];
+ main.querySelectorAll('.copyable').forEach(function(el){if(el.closest('#pick'))return;var t;
+  if(el.classList.contains('lt')){t=Array.prototype.map.call(el.querySelectorAll('li'),function(li,i){var c=li.cloneNode(true);var bb=c.querySelector('b');var lab=bb?bb.textContent:'';if(bb)bb.remove();return (i+1)+'. '+lab+c.textContent.trim()}).join('\n')}else t=textOf(el);
+  items.push({sec:secOf(el),title:titleOf(el),text:t,el:el})});
+ main.querySelectorAll('.li-c span').forEach(function(sp){items.push({sec:secOf(sp),title:'',text:sp.textContent.replace(/^「|」$/g,''),el:sp})});
+ var D=[
+  {k:'eat',n:'🍱 外食上班族',kw:/外食|便當|上班|加班|辦公室|聚餐|火鍋/},
+  {k:'kid',n:'👧 媽媽・孩子',kw:/孩子|小孩|媽媽|泡奶|幼兒|托育|功課/},
+  {k:'fam',n:'👵 幫爸媽・家人',kw:/爸媽|長輩|老家|我媽|家人|全家/},
+  {k:'day',n:'🌙 作息・早晚日常',kw:/熬夜|作息|睡前|早晨|早安|起床|早上|一個人|五分鐘/},
+  {k:'pro',n:'✨ 介紹產品',sec:/30 秒介紹|專業感句庫|菌株卡片|三大科學實證/,kw:/三合一|專利|後生元|寡糖|菌株/},
+  {k:'awd',n:'🏅 獎項・安全',sec:/獎項速記/,kw:/獎|SNQ|SGS|檢驗|GRAS|嬰幼兒食品/},
+  {k:'dm',n:'💬 回覆客人私訊',sec:/客人常問|客人的擔心|客人主動說|懶人包/},
+  {k:'sto',n:'📖 說故事',sec:/說故事/},
+  {k:'ig',n:'📱 限動一整組',sec:/限動發文範例/}
+ ];
+ var DMS=/客人常問|客人的擔心|客人主動說|懶人包/;function match(d,it){if(d.sec&&d.sec.test(it.sec))return true;return !!(d.kw&&d.kw.test(it.title+it.text)&&!DMS.test(it.sec))}
+ var chips=document.getElementById('chips'),res=document.getElementById('res'),cur=null;
+ function show(k,scroll){
+  cur=(cur===k&&!scroll)?null:k;
+  chips.querySelectorAll('.chip').forEach(function(c){c.setAttribute('aria-pressed',c.dataset.k===cur?'true':'false')});
+  try{localStorage.setItem('pickDir',cur||'')}catch(e){}
+  if(!cur){res.hidden=true;res.innerHTML='';return}
+  var d=D.filter(function(x){return x.k===cur})[0],list=items.filter(function(it){return match(d,it)});
+  res.innerHTML='';var h=document.createElement('div');h.className='res-h';h.innerHTML='<span>找到 <b style="color:var(--jade)">'+list.length+'</b> 則可以直接複製</span>';var cl=document.createElement('button');cl.type='button';cl.textContent='收起 ✕';cl.onclick=function(){show(cur)};h.appendChild(cl);res.appendChild(h);
+  list.forEach(function(it){var r=document.createElement('div');r.className='ri';var s=document.createElement('div');s.className='src';s.textContent=it.sec.replace(/[（(].*$/,'')+(it.title?'｜'+it.title:'');var t=document.createElement('div');t.className='tx';t.textContent=it.text;var b=document.createElement('button');b.type='button';b.className='cpb';b.textContent='📋 複製';b.onclick=function(){copy(it.text,b)};var row=document.createElement('div');row.className='row';row.appendChild(b);if(it.text.split('\n').length>3||it.text.length>90){var m=document.createElement('button');m.type='button';m.className='more';m.textContent='看全文 ▾';m.onclick=function(){var f=r.classList.toggle('full');m.textContent=f?'收起 ▴':'看全文 ▾'};row.appendChild(m)}r.appendChild(s);r.appendChild(t);r.appendChild(row);res.appendChild(r)});
+  res.hidden=false;if(scroll)res.scrollIntoView({behavior:'smooth',block:'start'});
+ }
+ D.forEach(function(d){var c=document.createElement('button');c.type='button';c.className='chip';c.dataset.k=d.k;c.textContent=d.n;c.setAttribute('aria-pressed','false');c.onclick=function(){show(d.k)};chips.appendChild(c)});
+ // 一週內容日曆對應
+ var W=[{t:'我的紀錄',k:'sto',h:'回顧這週做到什麼，只講持續'},{t:'開週習慣日',k:'day',h:'早晨例行：一杯水、一包好菌、吃早餐'},{t:'認識三合一',k:'pro',h:'用「補好菌、顧好菌、養好菌」講清楚'},{t:'分享我的生活',k:'eat',h:'外食、聚餐、加班後怎麼回到習慣'},{t:'送價值日',k:'dm',h:'預告天然食物懶人包，邀請私訊領取'},{t:'家人日',k:'kid',h:'幫孩子、幫爸媽準備的小習慣'},{t:'互動日',k:'ig',h:'限動投票或提問，再邀請做好菌檢測'}];
+ var WN=['日','一','二','三','四','五','六'],now=new Date(),wd=now.getDay(),tw=W[wd],nx=W[(wd+1)%7];
+ var td=document.getElementById('today');
+ td.innerHTML='<span class="d">今天 週'+WN[wd]+'</span><b>'+tw.t+'</b><span class="mut" style="flex-basis:100%;font-size:13px;margin:0">'+tw.h+'</span>';
+ var go=document.createElement('button');go.type='button';go.className='cpb go';go.style.marginTop='0';go.textContent='看今天能發的 →';go.onclick=function(){show(tw.k,true)};td.insertBefore(go,td.children[2]);
+ document.getElementById('tmr').textContent='明天 週'+WN[(wd+1)%7]+'：'+nx.t+'（'+D.filter(function(x){return x.k===nx.k})[0].n+'）';
+ var last='';try{last=localStorage.getItem('pickDir')||''}catch(e){}
+ if(last&&D.some(function(x){return x.k===last}))show(last);
+ },0);
+ // 收合的卡片也標示「可複製」
+ setTimeout(function(){main.querySelectorAll('details').forEach(function(d){if(d.querySelector('.copyable')){var t=document.createElement('span');t.className='sm-c';t.textContent='📋 可複製';d.querySelector('summary').appendChild(t)}})},0);
+ // 句庫每一句、限動範例每一組
+ var lib=[].find.call(main.querySelectorAll('h2'),function(h){return h.textContent.indexOf('專業感句庫')>-1});
+ if(lib){lib.nextElementSibling.querySelectorAll('li').forEach(function(li){var t=li.textContent.trim();var sp=document.createElement('span');sp.textContent=t;li.textContent='';li.className='li-c';li.appendChild(sp);var b=document.createElement('button');b.type='button';b.className='cpb';b.textContent='📋 複製';b.onclick=function(){copy(t.replace(/^「|」$/g,''),b)};li.appendChild(b)})}
+ var ex=[].find.call(main.querySelectorAll('h2'),function(h){return h.textContent.indexOf('限動發文範例')>-1});
+ if(ex){var n=ex.nextElementSibling;while(n&&n.tagName!=='H2'){if(n.classList.contains('lt')){(function(card){var b=document.createElement('button');b.type='button';b.className='cpb';b.textContent='📋 複製這 7 則';card.classList.add('copyable');b.onclick=function(){copy(Array.prototype.map.call(card.querySelectorAll('li'),function(li,i){var c=li.cloneNode(true);var bb=c.querySelector('b');var lab=bb?bb.textContent:'';if(bb)bb.remove();return (i+1)+'. '+lab+c.textContent.trim()}).join('\n'),b)};card.appendChild(b)})(n)}n=n.nextElementSibling}}
+ // 加按鈕
+ var els=main.querySelectorAll('.say, .cv .y, .scr');
+ els.forEach(function(el){
+  if(el.closest('#gb')&&!el.classList.contains('say'))return;
+  if((el.getAttribute('style')||'').indexOf('Noto Serif')>-1)return; // 標語不用複製
+  var b=document.createElement('button');b.type='button';b.className='cpb';b.textContent='📋 複製';
+  b.onclick=function(e){e.preventDefault();e.stopPropagation();copy(textOf(el),b)};
+  el.classList.add('copyable');
+  if(el.classList.contains('scr')){var w=document.createElement('div');w.className='cpw';w.appendChild(b);el.appendChild(w)}
+  else{el.style.display='flex';el.style.flexDirection='column';var span=document.createElement('div');while(el.firstChild)span.appendChild(el.firstChild);el.appendChild(span);el.appendChild(b)}
+ });
+})();
+</script>
+
+<div class="fab"><button type="button" id="fabMenu">☰ 目錄</button><button type="button" class="top" id="fabTop">↑ 回最上面</button></div>
+<div class="sheet" id="sheet" hidden><nav id="sheetNav" aria-label="目錄"><b>跳到…</b></nav></div>
+<script>
+(function(){
+ // 一次只打開一個
+ document.addEventListener('toggle',function(e){var d=e.target;if(d.tagName!=='DETAILS'||!d.open)return;document.querySelectorAll('details[open]').forEach(function(o){if(o!==d&&!o.contains(d))o.open=false})},true);
+ // 左下目錄
+ var sh=document.getElementById('sheet'),nv=document.getElementById('sheetNav');
+ setTimeout(function(){
+  var a0=document.createElement('a');a0.href='#pick';a0.className='hl';a0.textContent='📌 今天想發什麼？';nv.appendChild(a0);
+  document.querySelectorAll('main h2[id]').forEach(function(h){var a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;nv.appendChild(a)});
+ },50);
+ document.getElementById('fabMenu').onclick=function(){sh.hidden=false};
+ sh.onclick=function(e){if(e.target===sh||e.target.tagName==='A')sh.hidden=true};
+ document.addEventListener('keydown',function(e){if(e.key==='Escape')sh.hidden=true});
+ document.getElementById('fabTop').onclick=function(){document.querySelectorAll('details[open]').forEach(function(o){o.open=false});window.scrollTo({top:0,behavior:'smooth'})};
+})();
+</script>
+</body>
+</html>
